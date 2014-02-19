@@ -266,4 +266,22 @@ J.~L. Gabbard, D.~Hix, and J.~E. Swan, ``User-centered design and evaluation of
   virtual environments,'' \emph{Computer Graphics and Applications, IEEE},
   vol.~19, no.~6, pp. 51--59, 1999.
 
+\bibitem{Hartson}
+\BIBentryALTinterwordspacing
+H.~R. Hartson, T.~S. Andre, and R.~C. Williges, ``Criteria for evaluating
+  usability evaluation methods,'' \emph{International journal of human-computer
+  interaction}, vol.~13, no.~4, pp. 373--410, 2001. [Online]. Available:
+  \url{http://dx.doi.org/10.1207/S15327590IJHC1501_13}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Shneiderman1984}
+B.~Shneiderman, ``Response time and display rate in human performance with
+  computers,'' \emph{ACM Computing Surveys (CSUR)}, vol.~16, no.~3, pp.
+  265--285, 1984.
+
+\bibitem{Nah}
+F.~F.-H. Nah, ``A study on tolerable waiting time: how long are web users
+  willing to wait?'' \emph{Behaviour \& Information Technology}, vol.~23,
+  no.~3, pp. 153--163, 2004.
+
 \end{thebibliography}

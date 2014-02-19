@@ -5,9 +5,9 @@
 \contentsline {chapter}{Acknowledgements}{iv}{dummy.3}
 \vspace {1em}
 \contentsline {chapter}{Contents}{v}{dummy.4}
-\contentsline {chapter}{List of Figures}{vii}{dummy.6}
-\contentsline {chapter}{List of Tables}{viii}{dummy.8}
-\contentsline {chapter}{Abbreviations}{ix}{dummy.10}
+\contentsline {chapter}{List of Figures}{viii}{dummy.6}
+\contentsline {chapter}{List of Tables}{x}{dummy.8}
+\contentsline {chapter}{Abbreviations}{xi}{dummy.10}
 \vspace {2em}
 \contentsline {part}{I\hspace {1em}Introduction}{1}{part.13}
 \contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.14}
@@ -57,10 +57,23 @@
 \contentsline {subsection}{\numberline {6.1.2}Behaviour}{38}{subsection.92}
 \contentsline {section}{\numberline {6.2}How and why the high fidelity prototype differs from the paper prototype}{41}{section.99}
 \contentsline {section}{\numberline {6.3}Discussion}{44}{section.115}
-\contentsline {chapter}{\numberline {7}Formative Evaluation}{46}{chapter.116}
+\contentsline {chapter}{\numberline {7}Evaluation and Improvements}{46}{chapter.116}
 \contentsline {section}{\numberline {7.1}Evaluation}{46}{section.117}
 \contentsline {section}{\numberline {7.2}Formative evaluation}{48}{section.118}
 \contentsline {subsection}{\numberline {7.2.1}Results}{48}{subsection.119}
+\contentsline {section}{\numberline {7.3}Improvements to the prototype}{53}{section.120}
+\contentsline {subsection}{\numberline {7.3.1}Checkbox behaviour}{53}{subsection.121}
+\contentsline {subsection}{\numberline {7.3.2}Table reload speed}{54}{subsection.124}
+\contentsline {subsection}{\numberline {7.3.3}Cursors}{55}{subsection.125}
+\contentsline {subsection}{\numberline {7.3.4}Sort icons}{55}{subsection.126}
+\contentsline {subsection}{\numberline {7.3.5}Reset button}{56}{subsection.129}
+\contentsline {subsection}{\numberline {7.3.6}Username search box}{56}{subsection.132}
+\contentsline {subsection}{\numberline {7.3.7}Closing the detailed view overlay}{57}{subsection.135}
+\contentsline {subsection}{\numberline {7.3.8}Bug fixes}{57}{subsection.136}
+\contentsline {subsubsection}{\numberline {7.3.8.1}DataTables CSS bug}{58}{subsubsection.137}
+\contentsline {subsubsection}{\numberline {7.3.8.2}Table row onclick bug}{58}{subsubsection.138}
+\contentsline {subsubsection}{\numberline {7.3.8.3}Username search caching issue}{58}{subsubsection.139}
+\contentsline {subsubsection}{\numberline {7.3.8.4}Date conversion/sorting}{58}{subsubsection.140}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{54}{dummy.120}
+\contentsline {chapter}{Bibliography}{60}{dummy.142}

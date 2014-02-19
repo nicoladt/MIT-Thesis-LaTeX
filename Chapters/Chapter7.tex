@@ -103,3 +103,119 @@ In addition, the evaluator also noticed a number of bugs and issues with the int
 \item It was noted that the numeric date sort did not work correctly because of the order in which the date components (year, month etc) were parsed by the JavaScript. 
 \item It was also noted that not one user pressed the [Esc] key to exit the detailed view. 
 \end{itemize}
+
+\section{Improvements to the prototype}
+Based on the above observations, improvements to the prototype were implemented as is detailed in the following sections. Due to the very small sample size, no meaningful statistical analysis could be performed on the test data \citep[p. 149]{Hartson}. Instead all user feedback was taken into consideration and where feedback was conflicting, changes were implemented according to best design practices (such as those detailed in Chapter 5), or the most universal design pattern possible.
+\subsection{Checkbox behaviour}
+A number of possible improvements were considered for the checkbox behaviour that was so clearly confusing users. Because another round of summative usability tests had already been planned, it was decided to make the smallest set of changes possible to the checkbox behaviour, and then test those, instead of redesigning their entire functionality and behaviour. The logic was quite simply that the difficulties users had with the checkboxes could possibly be fixed with slight improvements, and it was therefore worth pursuing a minimalist approach instead of redesigning larger components,  because any changes made could still be tested thoroughly.
+
+The greyed out checkboxes caused the most confusion because users did not think they could click directly on one of the sub-checkboxes when viewing the default state of the interface. The initial checkbox state was therefore changed so that no checkboxes were greyed out, and only the ``All" checkboxes were ticked (not the sub-checkboxes too).  
+
+Additionally, sub-checkboxes were indented slightly, to make it more apparent that they were nested under each ``All" checkbox.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Figures/V2/checkboxes.png}
+ \caption{Improved checkboxes: no checkboxes were greyed out, to indicate that sub-checkboxes were clickable. Additionally, sub-checkboxes were indented slightly.	}
+\end{figure}
+
+
+As from before, selecting a sub-checkbox would deselect the ``All" checkbox associated with it. 
+
+To perform an inverted selection (i.e. to select all sub-checkboxes, in order to deselect only a few) users could simply uncheck the ``All" checkbox, which selects all the sub-checkboxes.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Figures/V2/deselectAll.png}
+ \caption{Deselecting an ``All" checkbox selects all sub-checkboxes, allowing for a quick inverted selection}
+\end{figure}
+
+
+\subsection{Table reload speed}
+The table reload speed was too fast, particularly when users were searching for a username and did not notice the table updating while their attention was focused on the username search box. 
+
+Whilst it would have been possible to slow down the reload speed slightly so that users would be more likely to notice the table updating \citep[p. 282]{Shneiderman1984}, this is not extensible or scalable behaviour: as soon as the table loads more than a certain (unknown at this point) number of annotations, its load time will become longer. It seemed impractical to deliberately introduce a slower table load speed, when the load speed will decrease anyway as the database grows, and at some point will become too slow and unresponsive (in which case server-side processing would be a better option). 
+
+Whilst instantaneous responsiveness is desirable \citep[p. 272]{DixFinlay} and tolerable computer response times are well documented \citep[p. 154]{Nah} it would be more practical to make changes based on this with a system that is less of a prototype and more of an accurate representation of a real-world scenario (e.g. with thousands of annotations saved from multiple books), particularly because response time over the World Wide Web is so closely coupled to where the data processing occurs (client or server side). 
+
+To alleviate confusion about the username search box automatically updating the table too quickly, a ``Search" button was added to this filter (see below). 
+
+\subsection{Cursors}
+To clarify when users could click on elements, and what that clicking would result in, several hover cursors were changed to better conform to standard cursor patterns and usage:
+The text cursor \includegraphics[width=0.5cm]{Figures/textcursor.png} that appeared on hover over the table header text was removed (because the text is not editable)
+The clickable ‘finger’ \includegraphics[width=0.5cm]{Figures/handcursor.png} cursor was added on hover above the sort icons (in each table header cell) to indicate that they are clickable
+In the detailed view overlay, a ``Zoom out"  \includegraphics[width=0.5cm]{Figures/V2/zoomout.png} cursor was added on hover outside of the overlay, to indicate that clicking off the overlay would close it (and to mirror the zoom in icon). 
+
+\subsection{Sort icons}
+The sort icons were made slightly larger and darker, to make them more visually obvious. In addition, the background colour for the table header row was changed, to improve contrast \citep[p. 650]{Galitz} of the sort icons on the background colour. 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Figures/V2/oldsort.png}
+ \caption{Previous sort icons and table header colour.}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Figures/V2/newsort.png}
+ \caption{New sort icons and table header colour.}
+\end{figure}
+
+\subsection{Reset button}
+The ``Reset" button was renamed to ``Reset Filters", to give users more direct information \citep[p. 520]{Galitz} as to its purpose. In addition, the styling between the username search box and the button was improved, to make it more apparent that the Reset button was not related to the username search box in functionality. 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Figures/V2/oldreset.png}
+ \caption{The previous reset button, could be interpreted as being related to the username search box.}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Figures/V2/newreset.png}
+ \caption{The new reset button has improved microcopy (button label) and better styling to indicate that it’s not related to the username search box.}
+\end{figure}
+
+
+\subsection{Username search box}
+To make it more clear to users what the purpose of the username search box was, the placeholder help text was changed from ``Username" to ``Search for a username". Additionally, a ``Search" button was added, and the auto-updating of the table on search was removed so that users had to type text into the search box and then click the ``Search" button (or press the \[Enter\] key) to submit their search. 
+
+Whilst some users realised that the lack of a ``Search" or ``Submit" button probably meant that typing into the search box would update the table automatically, and noticed this behaviour when they used the filter, a number of users did not expect the search box to behave this way. Although the auto updating was consistent with the behaviour of the other filters, it was decided to break that pattern and rather implement a ``Search" button to cater for the latter group of users. The reasoning was that adding a ``Search" button would cater for users who did not anticipate the automatic search, without alienating the users who appreciated the auto-updating, because the search box + ``Submit" button is such a universal, familiar pattern (whilst being less directly consistent with other interface behaviour this is still supported by familiarity and generalisability design principles \citep[p. 264]{DixFinlay}). 
+
+The search box outline was also made slightly darker, to avoid users thinking it was greyed out.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Figures/V2/usernameold.png}
+ \caption{The previous username search box.}
+\end{figure}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Figures/V2/usernamenew.png}
+ \caption{The new user search box, with improved placeholder text, a Search button, and better styling.}
+\end{figure}
+
+
+\subsection{Closing the detailed view overlay}
+Because a number of users tried to click off the detailed view overlay to close it, this functionality was added. 
+
+\subsection{Bug fixes}
+In addition to the improvements made to the interface as detailed above, fixes for the bugs discovered were also addressed. 
+
+\subsubsection{DataTables CSS bug}
+After thorough investigation, it was determined that the CSS table header bug introduced by DataTables’ fixed header and vertical scrolling was not possible to fix. Because this is a minor styling issue that was only noticed by one user, it was left as is. In future it would be preferable to build customised tables with the necessary functionality instead of using the DataTables plugin, which would circumvent this bug.
+
+\subsubsection{Table row onclick bug}
+The OnClick behaviour of the table rows was tweaked, so that clicking on the URL in an ``Annotation Information" cell did not open the detailed view overlay first, before going to the external URL. In addition, the external URLs were set to open in a new tab, so that users could open the page without inadvertently losing their current filter settings. 
+
+\subsubsection{Username search caching issue}
+To fix the bug that resulted in the last username search string displaying in the username search box if a user had navigated away from and back to the interface, the username search box text was modified to clear every time the page is loaded. 
+
+\subsubsection{Date conversion/sorting}
+The bug that resulted in the numeric date sort not working correctly was fixed. Quite simply the long UTC timestamp needed to be converted to a yyyy/mm/dd format (instead of dd/mm/yyyy) for the sort to work correctly. 
+
+The result of the above implemented changes was an interface that looked much the same as the original, but had subtle behavioural and stylistic differences: 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/V2/wholeUI.png}
+ \caption{The new user search box, with improved placeholder text, a Search button, and better styling.}
+\end{figure}
