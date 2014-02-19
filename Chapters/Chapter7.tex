@@ -1,0 +1,105 @@
+% Chapter 7
+
+\chapter{Evaluation and Improvements} % Main chapter title
+
+\label{Evaluation and Improvements} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapter 7. \emph{Evaluation and Improvements}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+\section{Evaluation}
+According to Rogers, Sharpe and Preece \citep[p. 433]{RogersPreece} evaluation is a fundamental component of the design process. It allows designers to collect information about what users experience when interacting with a prototype. Evaluation focuses both on the usability and user experience of a prototype, and its purpose is to improve a prototype design.
+
+One form of evaluation is usability testing. Usability tests involve collecting data using a variety of methods including observations, interviews and questionnaires. Rogers et al \citep[p. 438]{RogersPreece}  state that the fundamental goal of usability tests ``is to determine whether an interface is usable by the intended user population to carry out the tasks for which it as designed. This involves investigating how typical users perform on typical tasks." Similarly, Shneiderman and Plaisant \citep[p. 144]{ShneidermanPlaisant} state that ``usability tests are designed to find flaws in user interfaces". According to Beyer et al \citep[p. 373]{BeyerHoltzblatt} they ``tune an interface at the tail end of design, to clean up any rough edges or unnecessary difficulty in understanding or interacting with the interface."
+
+While usability tests can be performed in controlled laboratory settings (e.g. if the performance of a prototype needs to be measured), it is also possible to perform them in more casual settings familiar to the user \citep[p. 438]{RogersPreece}. This latter option was selected because the testing related to functionality and behaviour (not computing performance) and because of the simple practicalities involved in testing with users in their own workplace. Physical and system variables were kept consistent wherever possible and all tests used the same physical equipment and software. 
+
+To evaluate the high fidelity prototype interface in question, two rounds of usability tests were undertaken. The first set of tests was intended as formative evaluation, i.e. they were performed during the design process to ensure that the design was still conforming to user expectations and requirements \citep[p. 437]{RogersPreece}.
+
+The results from these tests were then analysed and used to improve the design of the prototype. A second round of summative usability testing was then undertaken, to assess the interface as a finished product and to determine whether it did in fact allow for simple and easy filtering, finding and searching of annotations. 
+
+The usability tests were designed to include interview-style questions about what users thought aspects of the interface represented, and how they expected them to behave (without interacting with them). Additionally users were asked to perform a number of simple tasks, carefully selected and designed to evaluate various behavioural aspects of the interface. For the summative set of tests, users were also asked to complete a satisfaction questionnaire. 
+
+Both sets of usability tests are discussed in detail in the following sections. To summarise the process briefly: five new users were chosen for each set of tests and under the same conditions (in the boardroom at their office) users were asked the pre-determined questions and to complete the list of tasks. Users were tested in groups of five because there were ten new users available in the team, who had not seen the interface before. 
+
+Testing with these ten users (chosen to be a representative sample of the three user groups identified who would use the final interface \citep[p. 461]{RogersPreece}) as well as designing with the original four users meant that the entire group of users available to this process would have participated by the time summative evaluation was finished. Small sample sizes are common in usability testing, and it is well documented that a high number of usability issues can be determined from tests with just a few users \citep[p. 119]{HackosRedish}.
+
+Each session was recorded using screencast software that recorded the active desktop and the conversation. Additionally the evaluator took notes detailing user comments and actions. 
+
+The data collected from each session was analysed for misconceptions, misunderstandings and misclicks. The aim of the analysis was to identify any interface elements or behaviours that confused users, or behaved differently to their expectations, and to ``identify user interaction components or features that both support and detract from user task performance" \citep{GabbardHix}.
+
+The results of the analysis were then summarised and used to suggest design changes and improvements to the interface, to bring it more closely in line with user expectation and requirements. 
+
+\section{Formative evaluation}
+Formative evaluation is evaluation that takes place during the design process and is used to improve a design citep[p. 149]{Hartson}. It focuses on identifying usability problems in a prototype that should and can be addressed during an iterative design process. It also ensures that users continue to be included in development, because their feedback is central to improving the design \citep{GabbardHix}. 
+
+The goal of the formative evaluation process was firstly to determine that the high-fidelity prototype was an accurate representation of the paper prototype, according to the users' conceptual models, and secondly to establish that the interface met the high-level user requirements determined earlier in the design process.
+
+Following the process outlined by Gabbard et al  \citep{GabbardHix}, user questions and tasks were developed to test all functionality and behaviour of the interface. In particular, the tasks were designed to test the user requirements that emerged from the requirements analysis process and the paper prototyping sessions. The test was practised informally (with a willing family member) before users were involved, to ensure that the wording of questions and tasks made sense and that the evaluator was comfortable with the test material.
+
+Users were first asked interview-type questions to assess their conceptual interpretation of the interface. Without interacting with the system (they could move the mouse and hover over elements, but not click on anything), users were asked what they thought various visual elements represented, and how they would expect them to behave were they to interact with them. These questions were designed to determine initial user expectations and assumptions, and were phrased such as ``\textit{what do you think xx represents?}" and ``\textit{what would you expect to happen if you clicked on yy?}". 
+
+Users were then asked to complete the tasks. The tasks were contextualised with reality-based scenarios, for example: ``\textit{Let's say a user calls the office to ask if his annotation has been captured in the system. His username is ``bob". You need to find all the annotations made by him. How would you go about doing this?}" 
+
+\subsection{Results}
+\underline{User A} thought that the greyed out sub-checkboxes did not look clickable. He also thought that the username search box looked greyed out. He was uncertain as to how the username search box would behave: while he noticed there was no ``Search" button to submit a user search he did not know if the search box would ``\textit{filter on the fly}" or offer an autocomplete dropdown list of matching usernames. He said it was not always obvious that the table rows had actually updated when he had interacted with a filter.
+
+He realised that the zoom icon (when hovering on a table row) indicated expansion, but was not sure what information an expanded view would include. He commented that the cursor did not change if he hovered over the table header sort icons, so it did not seem clear that the sort arrows were clickable because: ``\textit{When you can click on things you get the finger}" (\includegraphics[width=0.5cm]{Figures/handcursor.png}). He also noticed that when hovering over the table header text (e.g. ``Type") the cursor changed to be a text input cursor (\includegraphics[width=0.5cm]{Figures/textcursor.png}). This was a default DataTables/Browser behaviour which the evaluator had not noticed in testing before.
+
+In addition, User A noticed the DataTables CSS bug already mentioned, where in some instances the fixed table header cells do not align correctly with the table data cells in the rows beneath them.
+
+To close the detailed view overlay, he tried clicking off the box, which did not work - he felt it ``\textit{probably should}". He also mentioned that he thought the Reset button was ``\textit{a bit obscured}" at the bottom of the page, and suggested renaming it to ``Reset Filters" and moving it to the top of the page. 
+
+\underline{User B} also did not think that the greyed out sub-checkboxes were clickable - she assumed they would become clickable if she unchecked ``All". She also expected the ``All" checkbox to be an all/none toggle, so that if ``All" was unchecked, then nothing would be selected. When she realised this was not the case (unchecking an ``All" selected all the sub-checkboxes instead), she deselected the sub-checkboxes to get to the required filter set. For example, to select the ``chapter 5" filter - she unchecked the ``All", which selected the 24 sub-checkboxes for ``Chapter" and proceeded to deselect 23 checkboxes until just ``5" was selected. Even though she realised this was inefficient and unlikely to be the only solution, she did not experiment with the checkbox behaviour to see if an alternative option was available. 
+
+The purpose of the username search box was not initially clear to her as she did not know what it would be used to search for. She also was not sure how it would behave and whether she would have to press ``Enter" to submit a search, for example. Once she interacted with the search box however, she realised that it filtered the table automatically. 
+
+User B also missed the visual indication of the default date sort (\includegraphics[width=0.3cm]{Figures/sortarrowdown.png}). She realised the table was sorted by date, but she deduced this from the date column entries.
+
+\underline{User C} did assume that the greyed out sub-checkboxes were clickable. However, when she interacted with the system, she first tried to deselect one, and then discovered that clicking on one actually selected it. However, she did not think to deselect all subject checkboxes to get no results in the table. 
+
+She did not expect anything to happen if she started typing in the username search box, and she mistook the ``Reset" button for a username ``Search" (submit) button: she assumed she would have to type in the box and then press ``Reset" to submit her user search. 
+
+When she started interacting with the interface it was apparent that her confusion about the ``Reset" button extended beyond this: after she selected the relevant group of checkboxes to a particular task she clicked the ``Reset" button to submit her entire filter query (i.e. she did not notice the table updating at all) and then was perplexed when she realised her filter choice had just been cleared. According to her: ``\textit{I would want to choose something and then click something else.  It would make sense if you had some instructions. I think it's important to have a Reset button because there's quite a lot of options… But my initial thing is that you choose and click Enter [to] search. That's how you do it on Google}". 
+
+User C thought that the zoom icon on row mouseover meant that the rows were clickable, but was not sure what clicking on a row would do (``\textit{either it would bring up more information, or single out that particular comment but I don't know how...}"). Eventually we established that she expected the zoom icon to indicate a literal, visual zooming in, i.e. making the text bigger (``\textit{why would you want to see it bigger, when you can read it?}"). She did not think that clicking on a row would bring up more detailed information and she only noticed that the URL in each row was clickable. 
+
+She was uncertain as to how the ``Annotation Information" column would sort itself, and was not sure why one would want to sort the table by ``Type", when ``\textit{you can do that with the filters on the left}". When she initially clicked on a sort icon, the table update was not obvious (the sorting change to the visible results was minimal), and this confused her. However she persevered and clicked again, and then realised that the table had updated. 
+
+She thought that the coloured type labels looked like clickable buttons. She also noticed a bug where, even when there were no entries in the table, the counter text at the bottom still displayed ``Showing 1 of 1 entries".
+
+\underline{User D} did not think that the greyed out sub-checkboxes were clickable in their initial state but thought they probably would be if the ``All" checkbox was deselected (i.e. an all/some toggle). That being said, initially she did not try to click on a greyed out sub-checkbox - she deselected ``All" first and then clicked on a (already checked) sub-checkbox. She realised that deselected the sub-checkbox. She experimented and discovered by accident that she could just select one greyed out sub-checkbox directly. (For the chapter selection task where she discovered this alternative behaviour she said: ``\textit{I wasn't going to uncheck them} [23 chapter numbers] \textit{all!}"). Interestingly, even after she realised she could just directly select a greyed out sub-checkbox, for the next tasks she went to uncheck ``All" again, first. Like User C, she did not think to deselect all subjects to get no results in the table. 
+
+User D thought that the username search box was for ``\textit{your username}" (i.e. that one would input your own username into the box, and that it was not a search). She did not expect typing in it to have any effect on the table. Then, in one task, she typed the text ``Comment" in the box, to search for it. Based on this experiment, she then realised that the search box was specific, not general (i.e. not a site search), and then understood that it was to search for usernames in the table. In a later task, when she searched for ``s" in the username search box, the table updated so fast that she initially did not notice the results had changed.
+
+She did not know what the sorting arrows in the table header indicated, and did not notice the Date default sort icon. She did not think that it was possible to sort by a column header until she tried clicking on the ``Replies" header. When asked to sort by the highest number of replies she said: ``\textit{I'd try and click here somewhere… [clicked] ``Oh and that's what it does!}". She also noticed that the date sort, which at first glance looked correct, was in fact not (caused by a bug in the code that converted a long timestamp into human-readable text). 
+
+User D did also not believe that the zoom icon indicated that the row was clickable. For her, it was not obvious that she could click on a row, or that doing so would surface additional details about that row. 
+
+\underline{User E} initially thought that deselecting an ``All" checkbox would result in one of the sub-checkboxes being selected. She did not think that the greyed out sub-checkboxes were clickable, but said that the changing mouseover icon suggested that they were. She expected to have to uncheck the ``All" checkbox first. When she actually interacted with the interface however, she tried clicking directly on a greyed out sub-checkbox (without deselecting the ``All") and realised that was possible. Despite this, she said ``\textit{my instinct is still to uncheck ‘All' first and then click on the others}".
+
+With respect to the username search box, User E said that she hoped the table would not update until she had finish typing a username into the search box, because she was concerned that it would be very slow. She thought the search box might offer a dropdown list of autocomplete options, and said that that ``\textit{would be good}". She initially assumed that she would need to hit ``Enter" to submit her search, but then noticed that there was no ``Search" button, so she assumed the search box must filter the table automatically. In a later task when she actually interacted with the search box, she noticed that it updated automatically as she typed. 
+
+Like User A, User E said that she expected the cursor to change when she moused over the sort icons in the table header. She noticed that a three way sort was not possible and that she could not sort to have the ``Errata" type at the top of the table. ``\textit{It only has two...Then again I could just click on Errata [in the type filter on the left] if I just wanted them}". She suggested the text ``asc" and ``desc" instead of just the sorting arrows - she felt that the arrows alone were too visually subtle. She also was not sure how the ``Annotation Information" column would be sorted. 
+
+For the detailed view overlay, like User A, she tried to click off the detailed view box to close it, which did not work. She also suggested using a ``zoom out" icon when in the detailed view, to ``\textit{match the zoom in icon}" which opened the detailed view in the first place. 
+
+The above feedback can be summarised as follows:
+\begin{itemize}
+\item It was apparent that the behaviour of the checkboxes was not immediately obvious to users and that this needed to be reevaluated. 
+\item Additionally, the table often updated too quickly for users to notice that it had changed. 
+\item The cursor icons on hover needed to be changed, to make it very clear where and when users could click on things (e.g. on the sort arrows but not on the header text). 
+\item The sort arrows were not visually obvious enough.
+\item The purpose of the Reset button was not immediately apparent, and users got confused as to whether or not it was related to the username search box. 
+\item The purpose of the username search box was not clear enough, and users did not expect the automatic updating behaviour (of the table) associated with the search box. 
+\item Users expected to be able to click off the detailed view to close the overlay. 
+\end{itemize}
+In addition, the evaluator also noticed a number of bugs and issues with the interface during the usability tests:
+\begin{itemize}
+\item A possible fix for the DataTables CSS \verb|<th>| bug needed to be investigated: at least one user noticed it and commented on the fact the the table header did not always line up.
+ \item It was observed that clicking on the URL in a row triggered the OnClick event to open the detailed view. So, if a user clicked on the URL, the detailed view would open, and only then would the user be taken to the relevant Everything Maths/Science webpage. This needed to be fixed. 
+\item It was also noticed that if a user had searched for a username, navigated away from the web page (e.g. to the Everything Maths/Science URL) and hit ``Back" in the browser to return to the interface, the filters would all be reset on the page but the last string the user had searched for would still be visible in the username search box, which was misleading. 
+\item It was noted that the numeric date sort did not work correctly because of the order in which the date components (year, month etc) were parsed by the JavaScript. 
+\item It was also noted that not one user pressed the [Esc] key to exit the detailed view. 
+\end{itemize}

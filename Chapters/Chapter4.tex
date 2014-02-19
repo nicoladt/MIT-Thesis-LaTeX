@@ -1,0 +1,113 @@
+% Chapter 4
+
+\chapter{Methodology} % Main chapter title
+
+\label{Methodology} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapter 4. \emph{Methodology}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+\section{Introduction}
+In order to design a prototype interface that would meet users' needs and solve the problem of being able to sort, filter and search for annotations, a user-centred design process was undertaken. This included establishing user requirements; analysing those requirements to understand job roles and to build a conceptual model of the system; and researching design principles and guidelines to inform the development process. Participatory design sessions were then held in order to create a paper prototype of the interface. This was then converted into a high-fidelity prototype, which was formatively evaluated via usability tests. Improvements were made to the interface based on this evaluation, and then summative evaluation took place to determine whether or not the finished product met the original requirements and could be deemed a success. 
+
+\section{User-centered design}
+User-centered design (UCD) is a design philosophy and framework that aims to include end-users in as many stages of the design process as possible \citep{Abras}. The purpose of this inclusion is to use real user tasks and goals to drive development in order to design systems that are relevant to users and that adequately address their needs \citep[p. 327]{RogersPreece}.
+
+Gould and Lewis \citep{GouldLewis} outline three principles which are now standard tenets of the user-centered approach, namely: early focus on users and tasks, empirical measurement and iterative design \citep[p. 327]{RogersPreece}.
+
+The UCD framework includes several well-established methodologies designed to capture the abovementioned principles in the development process. These include establishing and analysing user requirements (e.g. by conducting user interviews, observing existing workflows, holding focus groups), prototyping (which could take the form of conceptual and/or participatory design) and iterative evaluation (and improvements to the design), during which users are asked to test and provide feedback about the ongoing product \citep[p. 330 - 331]{RogersPreece}. 
+
+Team participation (in planning, brainstorming and development) is a core part of Siyavula's corporate culture, and because the system was being designed for a niche group of users, a heavily user-centered process was deemed particularly appropriate in this context.
+
+The design process began with establishing user requirements by holding stakeholder interviews and having a focus group to determine use cases and requirements for the new interface. Once this was complete, a participatory design process took place, during which users were actively involved in brainstorming conceptual and actual physical designs on paper. The outcome of this process was then developed into a high-fidelity prototype, which was iteratively tested (formatively and summatively) and improved according to user feedback and assessment. 
+
+\section{Establishing requirements}
+\subsection{Stakeholder identification}
+The stakeholders were divided into three broad categories of job role: ``Development", ``Production" and ``Sales". These three categories corresponded to three different internal teams of employees, but were also generally correlated to computer experience levels. Whilst all employees were fully computer literate, those in the ``Development" category were the most advanced users (professional programmers and command line experts). ``Production team" users had above-average (for the team) computer skills (basic programming, familiarity with markup languages like XML and LaTeX) and ``Sales" users had average computer skills, being fully proficient with computers and the Internet,  but unfamiliar with command line operations and programming or markup languages.
+
+\subsection{Stakeholder interviews}
+Traditional contextual interviews (including observations) were dismissed as a viable option because the annotation software was still being developed and there was no existing workflow to observe \citep[p. 38]{BeyerHoltzblatt}. Alternative annotation systems used by employees (such as a.nnotate.com) were markedly different to the system being developed (they also had no back-end mechanism by which users could process annotations) so there was no analogous, precedent workflow that could be used in a contextual interview. 
+
+Instead, stakeholder identification and one-on-one stakeholder interviews were held in order to identify user requirements. Because of the small group of users involved, interviews were a practical means of getting individual feedback from every possible user of the system. A fairly open-ended interview process allowed for individual discussion and discovery about the varied ways in which different team members would interact with the system. 
+
+\subsection{Focus group}
+Once the interviews were complete, an informal focus group was held with all users to clarify points raised in the interviews and finalise the user requirements identified in the requirements analysis process \citep[p. 365]{RogersPreece}. 
+
+The focus group enabled users to exchange and clarify ideas and issues arising from the interviews and also collectively reach consensus on their requirements. As well as being a mechanism to obtain detailed user input, interviews and brainstorming allowed users to feel that they were participating actively in the design process, to voice any concerns and express their wishes for the future annotation system \citep[p. 365]{RogersPreece}. 
+
+\subsection{User requirements analysis}
+During stakeholder interviews and in the focus group, individuals were asked the general question ``Why annotate?". Several answers emerged, including: 
+\begin{itemize}
+ \item To improve existing products (post-publication)
+ \item To collaboratively build new products (pre-publication)
+ \item To involve community at all stages of product development
+\end{itemize}
+
+Stakeholders agreed that annotations must have a type and associated priority (by date – e.g. old errata are most important); and status (e.g. new, open or resolved). Discussion and replies on a resolved annotation should not be possible - either these annotations must be hidden, or locked down. 
+
+Annotations should be assignable to team members (e.g. certain chapters could be pre-assigned to certain team members) and re-assignable (e.g. for specific questions, or to get a second team member to double check a processed annotation before it is marked as resolved).
+
+Stakeholders agreed that annotations should be sortable (by date, type, location, status, priority, user) and browsable (by subject, book, chapter etc.) and that it should be possible to build a query based on the latter categories.
+
+Some stakeholders suggested that push notifications via email would be useful. Internally, these could notify team members if there was a new annotation in one of their pre-assigned chapters, for example. Externally these could notify an external user if there was a reply to their annotation – e.g. requesting clarification; or to notify them that it has been resolved.
+
+In terms of viewing existing annotations, stakeholders said that they would like to be able to view all information associated with an annotation (including location in book, highlighted text, user, user comment etc). They also agreed it would be useful to view an annotation in the context of the webbook in which it was made (to see the highlighted text); to be able to move easily from one annotation to the next; and to be able to easily view all annotations made in a given section of a webbook.
+
+\subsection{Use cases}
+The three job role categories mentioned above also generally correlate to three different types of use case, which emerged from the stakeholder interviews. ``Development" users are seldom involved in the ``processing" of annotations. They tend to work with the actual development and maintenance of the annotator software. ``Production" users are typically involved in the bulk of annotation processing. They would be the most frequent and intense users of the new system, needing to do batch processing (viewing, searching, filtering etc.) per subject or per chapter. ``Sales" users are less intensive users who typically need to locate a particular annotation made  by a specific volunteer, in order to provide feedback to that volunteer on the status of an annotation (e.g. ``\textit{has an error been fixed or a suggestion implemented?}"). These use cases overlap in a complementary manner. ``Sales" requirements are a subset of ``Production" requirements, and ``Developer" users could slot into either of these use cases if and when the need arises. 
+
+\section{Conceptual model}
+From the the stakeholder interviews and focus group a conceptual model of the interface emerged. Johnson and Henderson \citep[p. 27]{Johnson} describe a conceptual model as a ``high-level description of how a system is organised or operates". Conceptual models provide metaphors and analogies that convey understanding about what a system is for and how to use it. They also include the concepts that users will encounter when using the system, the relationships between said concepts, and information about the mappings between the concepts and the task domain the system is supposed to support \citep[p. 40-41]{RogersPreece}.  The benefits of constructing a conceptual model before design begins include a simpler, more coherent end-product, and a better match between user expectations and design intentions\citep[p. 26]{Johnson}. Conceptual models can also be used to guide and inform the design process, keeping it as close to the original task requirements and user domain space as possible\citep[p. 40]{RogersPreece}. 
+
+Using Johnson and Henderson's task-based conceptual model\citep[p. 30]{Johnson}, it was possible to view each annotation as an object with attributes. Attributes for each would include subject, grade, chapter numer, highlighted text, username, user comment and a timestamp. Tasks would include grouping objects by attributes (e.g. annotations can be grouped per grade or subject) and combinations thereof. Other tasks or actions to be performed on annotation objects would include filtering by attribute, sorting by attribute and searching by username. 
+
+In terms of metaphors and real-world analogies, searching for a particular item via a process of refinement occurs in many places in reality and on the internet. The binary sort performed to locate a word in a hard copy dictionary or telephone directory is a good analogue example of this. Online, all users were familiar with searching via refinement from Gmail (e.g. filter by label, or search inbox for a particular sender), GitHub (e.g. filter issues by label), Google, Flickr and Wikipedia, to name but a few. Users with programming skills were also familiar with the design of various kinds of sorting algorithms. 
+
+Several annotation attributes (by which annotations could also categorised) map directly to print book schema: subject, grade and chapter are a common hierarchy used to map high school textbook publishing. Annotations themselves could be viewed as being post-it notes, made (and stuck) in a particular book, about a particular section or page of text. Those post-it notes could then be categorised, depending on where and when they were made - much like a paper library indexing system. 
+
+\section{Design guidelines}
+In addition to the conceptual model, standard design principles, guidelines and rules were also used to inform the design process, as well as standard interface design and behavioural patterns. Design principles represent a mixture of theoretical knowledge, practical experience and common sense\citep[p. 26]{RogersPreece}. Although design principles are usually fairly high-level and abstract they provide well-established suggestions to designers about best practices to follow and include in their work. The principles and rules used to guide the current design process are documented in depth in the literature; however a brief summary is provided below.
+
+Rogers, Sharp and Preece\citep[p. 26-29]{RogersPreece} suggest five design principles to follow, namely:
+\begin{itemize}
+ \item  \textbf{visibility}: the more visible functionality is, the more likely it is that users will know what to do next.
+\item \textbf{feedback}: giving users feedback about what they have done or what has happened allows them to continue with the activity.
+\item \textbf{constraints}: restricting the kinds of interaction that can take place at any point in time.
+\item \textbf{consistency}: design interfaces to have similar operations and use similar elements for achieving similar tasks.
+\item \textbf{affordance}: give objects attributes in such a way that users will know how to use the object.
+\end{itemize}
+Similarly Dix and Finlay\citep[p. 260]{DixFinlay} outline: 
+\begin{itemize}
+ \item \textbf{learnability}: the ease with which new users can start interacting with a system and know how to use it (including predictability, synthesizability, familiarity, generalisability and consistency). 
+ \item  \textbf{flexibility}: how many ways in which a user and a system can effectively exchange information (including dialog initiative, multi-threading, task migratibility, substitutivity and customizability).
+ \item  \textbf{robustness}: the level of support provided to the user in order for them to successfully assess and achieve goals (including observability, recoverability, responsiveness and task conformance). 
+\end{itemize}
+
+No design work can be undertaken without acknowledgement of Shneiderman's \textit{Eight Golden Rules of Interface Design}\citep{ShneidermanPlaisant}:
+\begin{enumerate}
+ \item Strive for consistency.
+ \item  Cater to universal usability.
+ \item Offer informative feedback.
+ \item Design dialogs to yield closure.
+ \item Prevent errors.
+ \item Permit easy reversal of actions.
+ \item Support internal locus of control.
+ \item Reduce short-term memory load.
+\end{enumerate}
+Similarly, Nielsen and Molich's \textit{10 Usability Heuristics for User Interface Design}\citep[p. 249]{NielsenHeuristics} (discussed at length in Chapter 7) were included in the process.
+
+\section{Participatory Design}
+Once the requirements gathering and analysis process was complete and a conceptual framework and design guidelines were in place, participatory prototyping sessions could be undertaken, to integrate as much user input as early on in the design process as possible. 
+
+The participatory design model provides a sramework in which designers and users (and any other stakeholders) can collaborate during the design process. It allows for ongoing user input and the inclusion of user expertise and knowledge. Prototyping is a participatory design method by which designers and users can research, explore and start iteratively designing together \citep{Spinuzzi}.   
+
+Paper prototyping was chosen because it allowed for creative, ongoing user involvement and an opportunity to build on the research obtained through the stakeholder interviews. Prototyping (and the dialogue that it involved) gave participants the opportunity to refine their initial ideas and to move from hypothetical discussion and conceptual design about their future use of the system to concrete functionality and paper mockups. It was also selected because it allows for easy visualisation and exploration of the interface features, using tools (papers and coloured pens) that all participants are familiar with\citep[p. 380]{HackosRedish}. 
+
+Ongoing user input was deemed particularly valuable given that there existed no precedent for the back-end interface in question, and that future users had rather specialised user requirements for the interface. Additionally, all stakeholders (even those in the ``Sales" category) were computer literate and familiar with a variety of web-based software, and therefore able to offer informed opinions about their work processes and needs. 
+
+Two 1.5 hour paper prototyping sessions were held with a representative sample of team members, who had different job roles and work experience, and could therefore bring a variety of input and opinions to the design. The first session focused only on how users would expect to be able to search or filter annotations (not on how those annotations or search results would be displayed). The second session focused on the displaying of annotations once a user had implemented a search or set of filters. 
+
+The aim of these sessions was to produce a paper prototype of the interface design that included search/filter functionality annotations, and an interface for displaying filtered results. 
+
+Once a paper-prototype existed, this could then be converted into a high-fidelity prototype which could be iteratively evaluated as mentioned above. The design and evaluation process is described and discussed at length in the chapters that follow.
+

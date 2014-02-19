@@ -1,0 +1,18 @@
+% Chapter 2
+
+\chapter{Background} % Main chapter title
+
+\label{Chapter2} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapter 2. \emph{Background}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+\section{Overview of Annotator}
+The beta version of Siyavula's Annotator software allowed people to highlight HTML text in a webbook and make an annotated comment about their selection. In order to use the annotator, users had to be be logged in so that their annotations could be correctly attributed to them. 
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Figures/annotator1.png}
+ \caption{testing}
+\end{figure}

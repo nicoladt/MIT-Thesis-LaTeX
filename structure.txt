@@ -1,0 +1,31 @@
+cover page
+- title 
+by
+- name
+supervised by 
+- name
+
+supervised by...
+DISSERTATION SUBMITTED FOR THE PARTIAL FULFILLMENT
+OF THE REQUIREMENTS FOR THE DEGREE OF
+MASTER OF PHILOSOPHY IN INFORMATION TECHNOLOGY
+IN THE DEPARTMENT OF COMPUTER SCIENCE
+UNIVERSITY OF CAPE TOWN
+
+- date
+
+-----------------------------------------------------------------------------
+- declaration
+- abstract
+- dedication
+- acknowledgements. 
+- copyright & license. 
+
+-contents
+-list of figures
+-list of tables
+-appendices
+-chapter 1
+-----------------
+
+
