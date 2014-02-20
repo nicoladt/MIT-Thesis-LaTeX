@@ -1,0 +1,39 @@
+% Chapter 8
+
+\chapter{Conclusion} % Main chapter title
+
+\label{Conclusion} % For referencing the chapter elsewhere, use \ref{Chapter1} 
+
+\lhead{Chapter 8. \emph{Conclusion}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+\section{Conclusion}
+The purpose of the new interface was to provide users with improved functionality to engage with a collection of existing annotations. This functionality would include the ability to easily filter, sort and search for annotations. Its success can therefore be measured by whether or not it enabled users to perform these tasks in intuitive, predictable and easily learnable ways. 
+
+As demonstrated in the summative evaluation, users could indeed filter, sort and search for annotations and most understood very quickly how the interface behaved and how they could interact with it. Not only was this observed during the usability tests but this was also supported by user feedback from the questionnaires, as discussed in detail in Chapter 8. The user-centred methodology was crucial in accurately establishing and confirming user requirements and expectations. Detailed user feedback at many stages of the design and development process allowed for accurate and conscientious mapping of the problem to the solution. It resulted in an interface tailor-made for a specific group of users and their requirements, which was the desired outcome for this research. 
+
+The interface provided new functionality that extended far beyond the existing static table of annotations, and provided users with completely novel ways of interacting with content, that are far more closely coupled to Siyavula's unique requirements and workflow processes. For example, annotations could be grouped and filtered according to meaningful categories (subjects, grades etc.); previews of the text to which an annotation relates could be viewed; and sets of annotations across different grades, subjects and/or usernames could easily be viewed. 
+
+On the basis of this, it is reasonable to state that the interface achieved its purpose for Siyavula and is therefore a success. 
+
+Nonetheless it would be incorrect to assume that because the interface successfully provided users with new and desired functionality and capabilities, there is no further room for improvement. 
+
+While feedback from the summative evaluation process was very encouraging and indicated that the design was improved after the formative testing, it is evident that the interface could still be further refined. The behaviour of checkboxes is a good example of this. Users better understood how they worked in the summative testing (compared to in the formative testing), but the current checkbox behaviour is still not ideal: users expect an ``all or nothing" state. It would probably be worth exploring a tri-state checkbox button (all/something/nothing), to overcome this design challenge. An alternative for the ``zoom in" icon possibly needs to be further investigated (or possibly designed), and adding autocomplete functionality to the username search box would definitely be an improvement according to user expectations in the summative usability tests.
+
+As successful as it may be in solving one piece of Siyavula's annotation problem, the final interface is only a small part of a much larger process, and it is arguable that it will have even greater valuable when that larger process is complete. These possibilities are discussed in the following section. 
+
+\section{Future work}
+Apart from the small improvements to the interface mentioned above, the table functionality acquired through the use of DataTables needs to be rewritten, to eliminate the constraints and errors introduced by that plugin and to introduce new functionality like a three way rotational sort.
+
+Future development should involve combining this back-end interface with a live database and a front-end system (like Annotator) that allows users to make annotations in the first place. This would transform a proof of concept prototype into a component of a functional package of annotation software.
+
+It would also be immensely useful to integrate issue tracking into the entire system for making, viewing, saving and processing annotations. If each annotation were saved as one issue (such as in GitHub), annotations could then easily be assigned a status (e.g. open or resolved) and they could also be assigned to specific users (e.g. Maths Literacy annotations could be assigned to the content coordinator for that subject, who would inevitably have to process them at some point). Issue tracking software would also allow for new labels and comments to be associated with specific annotations. 
+
+Server integration and caching would enable new functionality (related to issue tracking too) including user authentication and the saving of cookies, to store the state of the webpage. This allows for other possibilities such as being able to save several commonly used filter sets (e.g. if a team member only ever processes Physical Sciences, grade 10, it would be very useful to save that as their default filter set and view). 
+
+An investigation into the use of frames to display on the same page the original webbook (with highlighted text) and a specific annotation with details would be worthwhile. This would enable team members to easily view annotation information and context simultaneously, which would help them to assess the validity of a particular annotation comment.
+
+As with any software development, thoroughly quality assurance testing and browser cross-compatibility should also be undertaken and implemented. 
+
+The result of such further development would be a complete and novel annotation system that would be relevant far beyond the scope of Siyavula's processes. 

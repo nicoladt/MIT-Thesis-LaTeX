@@ -184,7 +184,7 @@
 %	defined as \examname above so you cite it as \examname
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Designing an interface to allow users to sort, filter and search web-based annotations.} % Your thesis title - this is used in the title and abstract
+\thesistitle{Designing an interface to provide new functionality for the processing of existing web-based annotations.} % Your thesis title - this is used in the title and abstract
 %-------------------------------------------------  
 \supervisor{Professor Gary \textsc{Marsden}} % You supervisor's name - this is used in the title page
 %-------------------------------------------------   
@@ -416,6 +416,14 @@
 \addtotoc{Acknowledgements}
 \thispagestyle{plain}
 \begin{center}{\huge{\textit{Acknowledgements}} \par}\end{center}
+{\normalsize #1}
+\vfil\vfil\null
+}
+\newcommand\licensing[1]{
+\btypeout{Licensing}
+\addtotoc{Licensing}
+\thispagestyle{plain}
+\begin{center}{\huge{\textit{Licensing}} \par}\end{center}
 {\normalsize #1}
 \vfil\vfil\null
 

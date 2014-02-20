@@ -33,7 +33,7 @@
 %\usepackage{rotating}
 %\usepackage{fontspec}
 %\setmainfont{Amiri}
-
+\usepackage{longtable}
 
 
 \hypersetup{urlcolor=blue, colorlinks=true} % Colors hyperlinks in blue - change to black if annoying
@@ -65,6 +65,7 @@
 %----------------------------------------------------------------------------------------
 
 \begin{titlepage}
+
 \begin{center}
 
 \textsc{\LARGE \univname}\\[1.5cm] % University name
@@ -85,16 +86,19 @@
 \emph{Supervisor:} \\
 \supname % Supervisor name - remove the \href bracket to remove the link  
 \end{flushright}
-\end{minipage}\\[3cm]
- 
+\end{minipage}\\[2cm]
+
 \large \textit{A thesis submitted in partial fulfilment of the requirements\\ for the degree of \degreename}\\[0.3cm] % University requirement text
 \textit{in the}\\[0.4cm]
 \deptname\\[2cm] % Research group name and department name
- 
-{\large \today}\\[4cm] % Date
-%\includegraphics{Logo} % University/department logo - uncomment to place it
- 
-\vfill
+{\large \today}\\[2cm] % Date
+ \begin{figure}[h!]
+ \centering
+ \includegraphics[width=4cm]{Figures/uctlogo.jpg} 
+ \hspace{2cm} 
+ \includegraphics[width=3cm]{Figures/compsci.jpg}  
+ \end{figure} 
+
 \end{center}
 
 \end{titlepage}
@@ -111,13 +115,14 @@
 I, \authornames, declare that this thesis titled, '\ttitle' and the work presented in it are my own. I confirm that:
 
 \begin{itemize} 
-\item[\tiny{$\blacksquare$}] This work was done wholly or mainly while in candidature for a research degree at this University.
+\item[\tiny{$\blacksquare$}] This work was done wholly while in candidature for a research degree at this University.
 \item[\tiny{$\blacksquare$}] Where any part of this thesis has previously been submitted for a degree or any other qualification at this University or any other institution, this has been clearly stated.
 \item[\tiny{$\blacksquare$}] Where I have consulted the published work of others, this is always clearly attributed.
 \item[\tiny{$\blacksquare$}] Where I have quoted from the work of others, the source is always given. With the exception of such quotations, this thesis is entirely my own work.
 \item[\tiny{$\blacksquare$}] I have acknowledged all main sources of help.
 \item[\tiny{$\blacksquare$}] Where the thesis is based on work done by myself jointly with others, I have made clear exactly what was done by others ~                                                                               
-and what I have contributed myself.\\
+and what I have contributed myself.
+\item[\tiny{$\blacksquare$}] I know the meaning of Plagiarism and declare that all of tho work in the document, save for that which is properly acknolwedged, is my own.\\
 \end{itemize}
  
 Signed:\\
@@ -127,7 +132,31 @@ Date:\\
 \rule[1em]{25em}{0.5pt} % This prints a line to write the date
 }
 
+
+
+
 \clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	COPYRIGHT
+%----------------------------------------------------------------------------------------
+
+
+\licensing{\addtocontents{toc}{\vspace{1em}}
+ \authornames  is the author of this dissertation, and holds copyright in terms of the University of Cape Town's Intellectual Property Policy, July 2011.\\ (\href{http://www.uct.ac.za/downloads/uct.ac.za/about/policies/intellect_property.pdf}{http://www.uct.ac.za/downloads/uct.ac.za/about/policies/intellect\_property.pdf}).\\
+\\
+ This work is licensed by the author under a Creative Commons Attribution 2.5 South Africa License. (\href{http://creativecommons.org/licenses/by/2.5/za/deed.en}{http://creativecommons.org/licenses/by/2.5/za/deed.en}).
+ \begin{center}
+   \includegraphics[width=3cm]{Figures/cc-by.jpg}	
+ \end{center}
+
+
+ \clearpage
+ 
+
+}
+
+
 
 %----------------------------------------------------------------------------------------
 %	QUOTATION PAGE
@@ -187,6 +216,8 @@ Thanks are also due to my employers and colleagues at Siyavula for giving me the
 \\
 
 }
+
+
 \clearpage % Start a new page
 
 %----------------------------------------------------------------------------------------
@@ -253,6 +284,7 @@ Thanks are also due to my employers and colleagues at Siyavula for giving me the
 \input{Chapters/Chapter5} 
 \input{Chapters/Chapter6} 
 \input{Chapters/Chapter7} 
+\input{Chapters/Chapter8}
 
 %----------------------------------------------------------------------------------------
 %	THESIS CONTENT - APPENDICES

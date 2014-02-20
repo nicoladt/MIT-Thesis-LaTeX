@@ -11,46 +11,48 @@ Database file #1: Bibliography.bib
 -- IEEEtran.bst version 1.13 (2008/09/30) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--edition ordinal word "Revised" may be too high (or improper) for conversion in Dumas
 
 Done.
-You've used 49 entries,
+You've used 62 entries,
             4039 wiz_defined-function locations,
-            1089 strings with 13753 characters,
-and the built_in function-call counts, 26742 in all, are:
-= -- 2004
-> -- 499
-< -- 190
-+ -- 278
-- -- 78
-* -- 1198
-:= -- 4055
-add.period$ -- 105
-call.type$ -- 49
-change.case$ -- 51
-chr.to.int$ -- 432
-cite$ -- 49
-duplicate$ -- 2107
-empty$ -- 2472
-format.name$ -- 100
-if$ -- 6116
+            1166 strings with 15682 characters,
+and the built_in function-call counts, 34639 in all, are:
+= -- 2635
+> -- 635
+< -- 248
++ -- 349
+- -- 98
+* -- 1551
+:= -- 5264
+add.period$ -- 134
+call.type$ -- 62
+change.case$ -- 70
+chr.to.int$ -- 573
+cite$ -- 63
+duplicate$ -- 2707
+empty$ -- 3205
+format.name$ -- 127
+if$ -- 7938
 int.to.chr$ -- 0
-int.to.str$ -- 49
-missing$ -- 375
-newline$ -- 214
-num.names$ -- 31
-pop$ -- 1092
+int.to.str$ -- 62
+missing$ -- 478
+newline$ -- 261
+num.names$ -- 44
+pop$ -- 1368
 preamble$ -- 1
 purify$ -- 0
-quote$ -- 2
-skip$ -- 2038
+quote$ -- 4
+skip$ -- 2662
 stack$ -- 0
-substring$ -- 991
-swap$ -- 1458
-text.length$ -- 46
+substring$ -- 1313
+swap$ -- 1883
+text.length$ -- 57
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 49
-warning$ -- 0
-while$ -- 100
-width$ -- 51
-write$ -- 457
+type$ -- 62
+warning$ -- 1
+while$ -- 137
+width$ -- 64
+write$ -- 578
+(There was 1 warning)

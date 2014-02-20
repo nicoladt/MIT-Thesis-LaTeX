@@ -10,22 +10,22 @@
 
 
 
-Four participants (from different job roles and with varying experience) were selected for the prototyping sessions. Two participants had seen the existing annotator back-end (the basic table) before. These same two participants were familiar with the process of making and processing annotations. The other two users knew in theory how that process worked, but had never taken part in it. 
+Four participants (from different job roles and with varying experience) were selected for the prototyping sessions. Two participants had seen the existing annotator back-end (the basic table) before. These same two participants were familiar with the process of making and processing annotations. The other two participants knew in theory how that process worked, but had never taken part in it. 
 
-This group of participants was selected from a team of 12 members, to be as representative a sample as possible, from the team's (very small) population of users, in order to obtain as varied and balanced user input as possible. Participants were representative of differing job roles, computer literacy levels and in-house experience, particularly in terms of previous experience with the annotation process. Several other users were earmarked early on as being a similarly representative sample who would take part in usability testing, further into the design process.
+This group of participants was selected from a team of 12 members, to be as representative a sample as possible, from the team's (very small) population of members, in order to obtain as varied and balanced input as possible. Participants were representative of differing job roles, computer literacy levels and in-house experience, particularly in terms of previous experience with the annotation process. Several other team members were earmarked early on as being a similarly representative sample who would take part in usability testing, further into the design process.
 
 Consent was given by all participants for the filming of the two sessions. Participants were provided with large pieces of paper, coloured pens, highlighters and coloured paper, with which to sketch out their ideas. 
 
 It was made clear to the participants that the interface in question would involve the back-end processing of annotations only, and would only be used by internal team members, once annotations have already been made and stored in the database. At this point the only web-enabled device considered was a browser running on a desktop or laptop computer as it is highly unlikely that team members would need to process annotations on a mobile device, for example. It was assumed that all external users (those who make the annotations and those in-house users who process them) would have to be logged in, due to existing functionality on the book websites.
 
-The first session focused only on how users would expect to be able to search or filter annotations (not on how those annotations or search results would be displayed). In other words, ``\textit{what do you expect to see when you log in and what kind of search functionality do you want?}"
+The first session focused only on how participants would expect to be able to search or filter annotations (not on how those annotations or search results would be displayed). In other words, ``\textit{what do you expect to see when you log in and what kind of search functionality do you want?}"
 
 The second session focused on the displaying of annotations (or query results) once a user had implemented a search or set of filters, i.e. ``\textit{how do you sort and refine results?}". Discussion and ideas about this latter concept refined the ideas that emerged in the first session. As a result, part of the second session also involved consolidating and finalising ideas for a final paper prototype.
 
 \section{Session 1}
 
 \subsection{Filter parameters}
-In the first session, users initially listed all possible parameters by which they may need to search or filter annotations. Suggestions included:
+In the first session, participants initially listed all possible parameters by which they may need to search or filter annotations. Suggestions included:
 \begin{itemize}
 \item subject
 \item grade
@@ -38,7 +38,7 @@ In the first session, users initially listed all possible parameters by which th
 \item resolved (fixed/not - status)
 \end{itemize}
 
-These filters were divided into two groups by users: high-level (subject, grade, alignment and chapter), and low-level. The high-level filters are those that users believed would be most frequently used. 
+These filters were divided into two groups by participants: high-level (subject, grade, alignment and chapter), and low-level. The high-level filters are those that participants believed would be most frequently used. 
 
 Users agreed upon two possible workflows for processing annotations: one would be to go through annotations chronologically, in the order in which they were made (e.g. ``\textit{today I'm going to look at annotations, from most recently made to oldest}"). Another would be to process annotations made in a particular book and/or chapter (e.g. ``\textit{today I'm going to look at all the annotations in Grade 10 Maths, Chapter 1}").
 
@@ -62,12 +62,12 @@ The second interface proposed by participants included a default view of all ann
  \caption{Users' second interface idea involving filter/search options on the left and results on the right.}
 \end{figure}
 
-The inclusion of a text search box was suggested, to search for keywords in the user comment part of the annotation, or in the text being annotated. Whilst two text searches were initially suggested, users later narrowed this down to one, that could search for text in either part of the annotation. Being able to search by username (based on a pre-populated list) in this search box was also mentioned as being desirable functionality. 
+The inclusion of a text search box was suggested, to search for keywords in the user comment part of the annotation, or in the text being annotated. Whilst two text searches were initially suggested, participants later narrowed this down to one, that could search for text in either part of the annotation. Being able to search by username (based on a pre-populated list) in this search box was also mentioned as being desirable functionality. 
 
 \subsection{Behaviour}
-In terms of behaviour,  the default view would include all annotations, and the list would be refined as users clicked on different checkboxes and narrowed their results (e.g. if no specific grade was selected, annotations in all grades would be displayed). In the left hand menu, the high-level filters (e.g. subject and grade) would initially be expanded, whilst the other lower-level sets of filters would be collapsed. It was suggested that the default view included greyed out, selected checkboxes to indicate that all options were automatically selected. Clicking on one box would then select that box, and deselect the others. 
+In terms of behaviour,  the default view would include all annotations, and the list would be refined as participants clicked on different checkboxes and narrowed their results (e.g. if no specific grade was selected, annotations in all grades would be displayed). In the left hand menu, the high-level filters (e.g. subject and grade) would initially be expanded, whilst the other lower-level sets of filters would be collapsed. It was suggested that the default view included greyed out, selected checkboxes to indicate that all options were automatically selected. Clicking on one box would then select that box, and deselect the others. 
 
-As filtering options were selected, the list of annotations displayed in the table of results (by date, with the most recent first) would then refresh in real time so that users would have a continuous feedback loop between their filter selection and the search results. This would enable them to quickly refine their search based on the immediate displaying on results.
+As filtering options were selected, the list of annotations displayed in the table of results (by date, with the most recent first) would then refresh in real time so that participants would have a continuous feedback loop between their filter selection and the search results. This would enable them to quickly refine their search based on the immediate displaying on results.
 
 The live updating of results would eliminate the need for a ``Search" or ``Submit" button. However, it was agreed that if the database were to get very large (admittedly an unlikely scenario for the company at present, given that each annotation is just a few bytes of text data) it would be more efficient to have a static search, plus a ``submit" button, which then returned results, otherwise the website would get very slow. 
 
@@ -83,17 +83,17 @@ It was agreed that the browser should remember a user's last selection of filter
 Users suggested a ``Reset" or ``Clear all" button to return to a default overview of all annotations. 
 
 \subsection{Issue tracking}
-Users also decided that it would be useful to have some mechanism by which annotations could be marked as ``new" or ``resolved", and be assigned to different team members for processing. This lead to a lengthy conversation about how the interface could possibly function as a skin for issue tracking software like GitHub or BitBucket. It was agreed that it would be useful to be able to set the status of an annotation, and to view said status in the results table. Resolved annotations should be listed last, or one should be able to easily exclude them from results, although they should not be deleted from the database.
+Users initially decided that it would be useful to have some mechanism by which annotations could be marked as ``new" or ``resolved", and be assigned to different team members for processing. This lead to a lengthy conversation about how the interface could possibly function as a skin for issue tracking software like GitHub or BitBucket. It was agreed that it would be useful to be able to set the status of an annotation, and to view said status in the results table. Resolved annotations should be listed last, or one should be able to easily exclude them from results, although they should not be deleted from the database.
 
 \section{Session 2}
-The second session focused on how users would want their filtered results displayed, and how they would like to be able to sort those results. Many ideas were discussed, and some ideas from the first session were refined, based on decisions and opinions about the table of displayed results. 
+The second session focused on how participants would want their filtered results displayed, and how they would like to be able to sort those results. Many ideas were discussed, and some ideas from the first session were refined, based on decisions and opinions about the table of displayed results. 
 
-Following on from the issue tracking discussion in the first session, users focused on being able to assign an annotation a ``status" and a ``person responsible". These fields were initially included in the table of displayed results. A tabbed table view was suggested, with ``unassigned" issues as one tab, ``busy-being-dealt-with" issues as a second tab and ``resolved" issues as a third tab (much like the GitHub web interface). 
+Following on from the issue tracking discussion in the first session, participants focused on being able to assign an annotation a ``status" and a ``person responsible". These fields were initially included in the table of displayed results. A tabbed table view was suggested, with ``unassigned" issues as one tab, ``busy-being-dealt-with" issues as a second tab and ``resolved" issues as a third tab (much like the GitHub web interface). 
 
-At some point in the second session however, one of the participants who is also a software developer pointed out that the group was no longer thinking about annotations - instead they were thinking about issues (in the bug tracking sense of the word). Issue tracking was then discarded by the users as being too complex because it would mean a rework of the entire system, to design an interface between the annotator software and an issue tracker like RoundUp or GitHub. They then narrowed the paper prototype down to a more simple design, excluding the tabbed view and table columns that would indicate issue status and the responsible user.
+At some point in the second session however, one of the participants who is also a software developer pointed out that the group was no longer thinking about annotations - instead they were thinking about issues (in the bug tracking sense of the word). Issue tracking was then discarded by the participants as being too complex because it would mean a rework of the entire system, to design an interface between the annotator software and an issue tracker like RoundUp or GitHub. They then narrowed the paper prototype down to a more simple design, excluding the tabbed view and table columns that would indicate issue status and the responsible user. This was the only example of a significant discrepancy between participant opinions. 
 
 \subsection{Displaying results}
-After further discussion, users agreed that results should be displayed in a table with the following sortable columns:\\ 
+After further discussion, participants agreed that results should be displayed in a table with the following sortable columns:\\ 
 $\vert$ Category $\vert$ Info (URL, comment, highlighted text preview) $\vert$ Number of replies $\vert$ Date $\vert$
 
 The default sort would be by date, with the most recent annotations listed first. The category column would include a visual representation of the type of annotation (comment, suggestion, errata), using coloured symbols to indicate type. This column would have a repetitive, circular sort, so one click would push one type of annotation to the top of the table, a second click would push the next type to the top and so on. 
@@ -178,12 +178,16 @@ Clicking on a particular annotation would open a detailed view of said annotatio
 Clicking ``Back" from the detailed view would take users back to their previous set of filters and results. Likewise, if a user logged out and in again, or navigated back to the back-end interface from another page, they would see their last search results. 
 
 \section{Discussion}
-Overall, the participatory design process was very constructive and informative. It was extremely valuable to get user input, and having users work in a group together meant that they could discuss and refine ideas with each other and reach a unified design concept which satisfied everyone. 
+Overall, the participatory design process was very constructive and informative. It was extremely valuable to get user input, and having participants work in a group together meant that they could discuss and refine ideas with each other and reach a unified design concept which satisfied everyone. 
 
-Drawing several iterative sketches of the interface enabled users to explore and experiment with different possibilities together. These sketches also seemed to help users visualise concepts and explain ideas to each other. Many ideas were brainstormed and then included or discarded as the users' design evolved. Whilst some users were more comfortable talking than drawing, the group struck a balance between thinking out loud and visualizing their ideas on paper for others to see. 
+Drawing several iterative sketches of the interface enabled participants to explore and experiment with different possibilities together. These sketches also seemed to help participants visualise concepts and explain ideas to each other. Whilst some participants were more comfortable talking than drawing, the group struck a balance between thinking out loud and visualizing their ideas on paper for others to see.
+
+Many ideas were brainstormed and then included or discarded as the participants' design evolved. These included different filter options (e.g. the keyword search, which was discarded later on), layout options (participants experimented with dropdown filters before they decided on the left column layout), table heading options and assorted interface behaviours (e.g initially paritipants suggested collapsible filter sections, but later discarded this idea once they'd narrowed down the list of filter options and determined that they could probably all fit in the same view even if they were expanded).  
+
+Because participants were used to brainstorming processes in the workplace, they were generally open to each other's suggestions and criticisms and there was little discrepancy between participants ideas and suggestions, with the exception of the issue tracking question. 
 
 Having two separate sessions spaced one week apart also gave participants an opportunity to mull over ideas that had been discussed before the second session. 
 
-Sometimes the brainstorming became very creative and extended beyond the scope of the interface in question. In these instances it  was challenging to try and keep users focused on the task at hand, without dampening their enthusiasm. 
+Sometimes the brainstorming became very creative and extended beyond the scope of the interface in question. In these instances it  was challenging to try and keep participants focused on the task at hand, without dampening their enthusiasm. 
 
-Ultimately, any proposed functionality that required issue tracking integration (e.g. GitHub) or server-side processing was excluded, in order to limit the scope of the project slightly and focus on the interface functionality itself, instead of the design of a database system that would have to include user authentication, server integration and so on. 
+While the paper prototype seemed like a viable design solution that would thoroughly address user requirements, ultimately any proposed functionality that required issue tracking integration (e.g. GitHub) or server-side processing had to be excluded. This was in order to limit the scope of the project slightly and focus on the interface functionality itself, instead of the design of a database system that would have to include user authentication, server integration and so on. 

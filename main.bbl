@@ -21,11 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{RogersPreece}
-Y.~Rogers, H.~Sharp, and J.~Preece, \emph{{Interaction Design}: beyond
-  human-computer interaction}, 3rd~ed.\hskip 1em plus 0.5em minus 0.4em\relax
-  Chichester: John Wiley \& Sons Ltd, 2011.
-
 \bibitem{OxfordDict}
 D.~Thompson, Ed., \emph{{The Concise Oxford Dictionary of Current English}},
   9th~ed.\hskip 1em plus 0.5em minus 0.4em\relax New York: Oxford University
@@ -217,6 +212,11 @@ C.~Abras, D.~Maloney-Krichmar, and J.~Preece, ``User-centered design,'' in
   1em plus 0.5em minus 0.4em\relax Great Barrington, Massachussetts: Berkshire
   Publishing Group LLC, 2004.
 
+\bibitem{RogersPreece}
+Y.~Rogers, H.~Sharp, and J.~Preece, \emph{{Interaction Design}: beyond
+  human-computer interaction}, 3rd~ed.\hskip 1em plus 0.5em minus 0.4em\relax
+  Chichester: John Wiley \& Sons Ltd, 2011.
+
 \bibitem{GouldLewis}
 J.~D. Gould and C.~Lewis, ``Designing for usability: key principles and what
   designers think,'' \emph{Communications of the ACM}, vol.~28, no.~3, pp.
@@ -256,15 +256,56 @@ J.~T. Hackos and J.~Redish, \emph{User and task analysis for interface
   design}.\hskip 1em plus 0.5em minus 0.4em\relax New York: John Wiley and
   Sons, Inc., 1998.
 
-\bibitem{Galitz}
-W.~O. Galitz, \emph{The essential guide to user interface design},
-  2nd~ed.\hskip 1em plus 0.5em minus 0.4em\relax New York: John Wiley \& Sons,
-  Inc, 2002.
-
 \bibitem{GabbardHix}
 J.~L. Gabbard, D.~Hix, and J.~E. Swan, ``User-centered design and evaluation of
   virtual environments,'' \emph{Computer Graphics and Applications, IEEE},
   vol.~19, no.~6, pp. 51--59, 1999.
+
+\bibitem{QUIS}
+\BIBentryALTinterwordspacing
+``{Questionnaire for User Interaction Satisfaction (QUIS), Version 7}.''
+  [Online]. Available: \url{http://www.lap.umd.edu/quis/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Harper1997}
+B.~D. Harper, L.~A. Slaughter, and K.~L. Norman, ``{Questionnaire
+  Administration Via the WWW: A Validation \& Reliability Study for a User
+  Satisfaction Questionnaire.}'' in \emph{WebNet}, vol.~97, 1997, pp. 1--4.
+
+\bibitem{Harper1993}
+B.~D. Harper and K.~L. Norman, ``{Improving user satisfaction: The
+  questionnaire for user interaction satisfaction version 5.5},'' in
+  \emph{Proceedings of the 1st Annual Mid-Atlantic Human Factors Conference},
+  1993, pp. 224--228.
+
+\bibitem{Nielsen1995}
+\BIBentryALTinterwordspacing
+N.~J, ``{Usability Problems Found by Heuristic Evaluation.}'' 1995, accessed:
+  January 2014. [Online]. Available:
+  \url{http://www.nngroup.com/articles/usability-problems-found-by-heuristic-evaluation/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{NielsenMolich}
+J.~Nielsen and R.~Molich, ``Heuristic evaluation of user interfaces,'' in
+  \emph{Proceedings of the SIGCHI conference on Human factors in computing
+  systems}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 1990, pp. 249--256.
+
+\bibitem{NielsenHow}
+\BIBentryALTinterwordspacing
+N.~J, ``How to conduct a heuristic evaluation,'' 1995, accessed: December 2013.
+  [Online]. Available:
+  \url{http://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{NielsenMack}
+------, ``Heuristic evaluation,'' in \emph{Usability Inspection Methods}, N.~J
+  and M.~RL, Eds.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY: John
+  Wiley \& Sons, 1994.
+
+\bibitem{Galitz}
+W.~O. Galitz, \emph{The essential guide to user interface design},
+  2nd~ed.\hskip 1em plus 0.5em minus 0.4em\relax New York: John Wiley \& Sons,
+  Inc, 2002.
 
 \bibitem{Hartson}
 \BIBentryALTinterwordspacing
@@ -283,5 +324,37 @@ B.~Shneiderman, ``Response time and display rate in human performance with
 F.~F.-H. Nah, ``A study on tolerable waiting time: how long are web users
   willing to wait?'' \emph{Behaviour \& Information Technology}, vol.~23,
   no.~3, pp. 153--163, 2004.
+
+\bibitem{QUISquant}
+\BIBentryALTinterwordspacing
+``{Quant QUIS™: Information About Quantitative Analysis},'' accessed:
+  December 2013. [Online]. Available:
+  \url{http://lap.umd.edu/quis/QuantQUIS.htm}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Faulkner}
+L.~Faulkner, ``Beyond the five-user assumption: Benefits of increased sample
+  sizes in usability testing,'' \emph{Behavior Research Methods, Instruments,
+  \& Computers}, vol.~35, no.~3, pp. 379--383, 2003.
+
+\bibitem{Dicks}
+R.~S. Dicks, ``Mis-usability: on the uses and misuses of usability testing,''
+  in \emph{Proceedings of the 20th annual international conference on Computer
+  documentation}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2002, pp. 26--30.
+
+\bibitem{Gravetter}
+F.~J. Gravetter and L.-A.~B. Forzano, \emph{Research methods for the behavioral
+  sciences}, 3rd~ed.\hskip 1em plus 0.5em minus 0.4em\relax Belmont, CA:
+  Cengage Learning, 2003.
+
+\bibitem{Hertzum}
+M.~Hertzum and N.~E. Jacobsen, ``The evaluator effect: A chilling fact about
+  usability evaluation methods,'' \emph{International Journal of Human-Computer
+  Interaction}, vol.~13, no.~4, pp. 421--443, 2001.
+
+\bibitem{Dumas}
+J.~S. Dumas and J.~Redish, \emph{A practical guide to usability testing},
+  revised~ed.\hskip 1em plus 0.5em minus 0.4em\relax Portland, Oregon:
+  Intellect Books, 1999.
 
 \end{thebibliography}

@@ -19,9 +19,18 @@ The UCD framework includes several well-established methodologies designed to ca
 
 Team participation (in planning, brainstorming and development) is a core part of Siyavula's corporate culture, and because the system was being designed for a niche group of users, a heavily user-centered process was deemed particularly appropriate in this context.
 
-The design process began with establishing user requirements by holding stakeholder interviews and having a focus group to determine use cases and requirements for the new interface. Once this was complete, a participatory design process took place, during which users were actively involved in brainstorming conceptual and actual physical designs on paper. The outcome of this process was then developed into a high-fidelity prototype, which was iteratively tested (formatively and summatively) and improved according to user feedback and assessment. 
+Questions that needed to be answered before a new interface could be designed included: 
+\begin{itemize}
+ \item How do different internal users need to interact with existing annotations? 
+ \item What new functionality do users require? 
+ \item How would users want and expect the interface to look and behave?
+\end{itemize}
+
+In order to answer these questions and to contextualise the problem, the design process began with establishing user requirements. This involved holding stakeholder interviews and having a focus group to determine use cases and requirements for the new interface. Once this was complete, a participatory design process took place, during which users were actively involved in brainstorming conceptual and actual physical designs on paper. The outcome of this process was then developed into a high-fidelity prototype, which was iteratively tested (formatively and summatively) and improved according to user feedback and assessment. Paper prototyping and usability tests were undertaken to provide valuable input into how users wanted and expected a new interface to look and behave. 
 
 \section{Establishing requirements}
+ 
+
 \subsection{Stakeholder identification}
 The stakeholders were divided into three broad categories of job role: ``Development", ``Production" and ``Sales". These three categories corresponded to three different internal teams of employees, but were also generally correlated to computer experience levels. Whilst all employees were fully computer literate, those in the ``Development" category were the most advanced users (professional programmers and command line experts). ``Production team" users had above-average (for the team) computer skills (basic programming, familiarity with markup languages like XML and LaTeX) and ``Sales" users had average computer skills, being fully proficient with computers and the Internet,  but unfamiliar with command line operations and programming or markup languages.
 
@@ -66,7 +75,9 @@ In terms of metaphors and real-world analogies, searching for a particular item 
 Several annotation attributes (by which annotations could also categorised) map directly to print book schema: subject, grade and chapter are a common hierarchy used to map high school textbook publishing. Annotations themselves could be viewed as being post-it notes, made (and stuck) in a particular book, about a particular section or page of text. Those post-it notes could then be categorised, depending on where and when they were made - much like a paper library indexing system. 
 
 \section{Design guidelines}
-In addition to the conceptual model, standard design principles, guidelines and rules were also used to inform the design process, as well as standard interface design and behavioural patterns. Design principles represent a mixture of theoretical knowledge, practical experience and common sense\citep[p. 26]{RogersPreece}. Although design principles are usually fairly high-level and abstract they provide well-established suggestions to designers about best practices to follow and include in their work. The principles and rules used to guide the current design process are documented in depth in the literature; however a brief summary is provided below.
+In addition to the conceptual model, standard design principles, guidelines and rules were also used to inform the design process, as well as standard interface design and behavioural patterns. Design principles represent a mixture of theoretical knowledge, practical experience and common sense\citep[p. 26]{RogersPreece}. Although design principles are usually fairly high-level and abstract they provide well-established suggestions to designers about best practices to follow and include in their work. 
+
+The principles and rules used to guide the current design process are documented in depth in the literature; however a brief summary is provided below. These principles were used in this research to guide all design and development in a reflective manner. When migrating from the paper-prototype to high fidelty prototype it was helpful to interrogate whether or not each new interface element being developed still conformed to these best practices. During usability testing, if users gave conficting feedback, design guidelines were also used to fine a best possible solution. For example, if catering to one user's expectations would mean overriding functionality that another user particularly approved of, then the opinion that best fit good design principles was favoured. 
 
 Rogers, Sharp and Preece\citep[p. 26-29]{RogersPreece} suggest five design principles to follow, namely:
 \begin{itemize}
@@ -94,7 +105,7 @@ No design work can be undertaken without acknowledgement of Shneiderman's \texti
  \item Support internal locus of control.
  \item Reduce short-term memory load.
 \end{enumerate}
-Similarly, Nielsen and Molich's \textit{10 Usability Heuristics for User Interface Design}\citep[p. 249]{NielsenHeuristics} (discussed at length in Chapter 7) were included in the process.
+Similarly, Nielsen and Molich's \textit{10 Usability Heuristics for User Interface Design}\citep[p. 249]{NielsenHeuristics} were included in the process.
 
 \section{Participatory Design}
 Once the requirements gathering and analysis process was complete and a conceptual framework and design guidelines were in place, participatory prototyping sessions could be undertaken, to integrate as much user input as early on in the design process as possible. 
@@ -109,5 +120,67 @@ Two 1.5 hour paper prototyping sessions were held with a representative sample o
 
 The aim of these sessions was to produce a paper prototype of the interface design that included search/filter functionality annotations, and an interface for displaying filtered results. 
 
-Once a paper-prototype existed, this could then be converted into a high-fidelity prototype which could be iteratively evaluated as mentioned above. The design and evaluation process is described and discussed at length in the chapters that follow.
+Once a paper-prototype existed, this could then be developed into a high-fidelity prototype which could be iteratively evaluated as discussed in the following section. 
 
+\section{Evaluation}
+According to Rogers, Sharpe and Preece \citep[p. 433]{RogersPreece} evaluation is a fundamental component of the design process. It allows designers to collect information about what users experience when interacting with a prototype. Evaluation focuses both on the usability and user experience of a prototype, and its purpose is to improve a prototype design.
+\subsection{Usability testing}
+One form of evaluation is usability testing. Usability tests involve collecting data using a variety of methods including observations, interviews and questionnaires. Rogers et al \citep[p. 438]{RogersPreece}  state that the fundamental goal of usability tests ``is to determine whether an interface is usable by the intended user population to carry out the tasks for which it as designed. This involves investigating how typical users perform on typical tasks." Similarly, Shneiderman and Plaisant \citep[p. 144]{ShneidermanPlaisant} state that ``usability tests are designed to find flaws in user interfaces". According to Beyer et al \citep[p. 373]{BeyerHoltzblatt} they ``tune an interface at the tail end of design, to clean up any rough edges or unnecessary difficulty in understanding or interacting with the interface."
+
+While usability tests can be performed in controlled laboratory settings (e.g. if the performance of a prototype needs to be measured), it is also possible to perform them in more casual settings familiar to the user \citep[p. 438]{RogersPreece}. This latter option was selected because the testing related to functionality and behaviour (not computing performance) and because of the simple practicalities involved in testing with users in their own workplace. Physical and system variables were kept consistent wherever possible and all tests used the same physical equipment and software. 
+
+To evaluate the high fidelity prototype interface in question, two rounds of usability tests were undertaken. The first set of tests was intended as formative evaluation, i.e. they were performed during the design process to ensure that the design was still conforming to user expectations and requirements \citep[p. 437]{RogersPreece}.
+
+The results from these tests were then analysed and used to improve the design of the prototype. A second round of summative usability testing was then undertaken, to assess the interface as a finished product and to determine whether it did in fact allow for simple and easy filtering, finding and searching of annotations. 
+
+The usability tests were designed to include interview-style questions about what users thought aspects of the interface represented, and how they expected them to behave (without interacting with them). Additionally users were asked to perform a number of simple tasks, carefully selected and designed to evaluate various behavioural aspects of the interface. For the summative set of tests, users were also asked to complete a satisfaction questionnaire. 
+
+Both sets of usability tests are discussed in detail in Chapter 7 however to summarise the process briefly: five new users were chosen for each set of tests and under the same conditions (in the boardroom at their office) users were asked the pre-determined questions and to complete the list of tasks. Users were tested in groups of five because there were ten new users available in the team, who had not seen the interface before. 
+
+Testing with these ten users (chosen to be a representative sample of the three user groups identified who would use the final interface \citep[p. 461]{RogersPreece}) as well as designing with the original four users meant that the entire group of users available to this process would have participated by the time summative evaluation was finished. Small sample sizes are common in usability testing, and it is well documented that a high number of usability issues can be determined from tests with just a few users \citep[p. 119]{HackosRedish}.
+
+Each session was recorded using screencast software that recorded the active desktop and the conversation. Additionally the evaluator took notes detailing user comments and actions. 
+
+The data collected from each session was analysed for misconceptions, misunderstandings and misclicks. The aim of the analysis was to identify any interface elements or behaviours that confused users, or behaved differently to their expectations, and to ``identify user interaction components or features that both support and detract from user task performance" \citep{GabbardHix}.
+
+The results of the formative usability tests were summarised and used to inform design changes and improvements to the interface, to bring it more closely in line with user expectation and requirements. These improvements were then tested again. The results from the summative usability tests were used to establish whether or not the final interface adequately met user requirements and provided users with the new functionality they required.
+
+\subsection{QUIS questionnaire}
+Users who participated in the summative usability tests were also asked to fill out several sections of the ``Questionnaire for User Interaction Satisfaction" version 7 (QUIS7), to assess their satisfaction levels with the prototype interface \citep{QUIS}. QUIS is a usability tool, the reliability and validity of which is well documented \citep{Harper1997}. The questionnaire includes a demographic section, an overall measure of satisfaction, and measures of user satisfaction in four specific interface aspects including screen factors, terminology and system feedback, learning factors, and system capabilities \citep{Harper1993}.  
+
+\subsection{Hueristic evaluation}
+To conclude the summative evaluation, a heuristic evaluation of the interface was also done once usability testing was complete. Heuristic evaluations and usability tests have been shown to be supplementary evaluation methods which can be used to identify different kinds of usability problems\citep{Nielsen1995}. These two evaluation techniques along with standardised user feedback from the questionnaire therefore covered a fairly broad spectrum of evaluation when combined. 
+
+Heuristic evaluation is a usability inspection method used to evaluate user interfaces against a standardised set of usability principles called heuristics \citep[p. 506]{RogersPreece}. These principles were developed by Jakob Nielsen and colleagues \citep{NielsenMolich} and have been refined and reduced into a set of ten guidelines as listed below. A heuristic evaluation is performed by assessing how an interface conforms to and complies with such guidelines or heuristics. 
+
+Whilst it has been shown that increasing the number evaluators also increases the number of problems identified (Nielsen suggests a minimum of three evaluators is ideal) there is arguably still merit in such an evaluation being performed by one individual \citep{NielsenHow}. The outcome of a heuristic evaluation should be a list of usability problems with the interface, with details about how they violated the guiding principles in the opinion of the evaluator \citep{NielsenHow}. 
+
+The latest list of usability heuristics defined by Jakob Nielsen and colleagues \citep{NielsenMack} is listed in the following table. 
+\clearpage
+\begin{longtable}{|p{0.4cm} | p{5cm}|p{8cm}|}
+
+ \hline
+1. &\textbf{Visibility of system status} & The system should always keep users informed about what is going on, through appropriate feedback within reasonable time. \\ \hline
+
+2. &\textbf{Match between system and the real world} & The system should speak the users' language, with words, phrases and concepts familiar to the user, rather than system-oriented terms. Follow real-world conventions, making information appear in a natural and logical order. \\ \hline
+
+3. &\textbf{User control and freedom} & Users often choose system functions by mistake and will need a clearly marked "emergency exit" to leave the unwanted state without having to go through an extended dialogue. Support undo and redo.\\ \hline
+
+4.& \textbf{Consistency and standards} & Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform conventions. \\ \hline
+
+5.& \textbf{Error prevention} & Even better than good error messages is a careful design which prevents a problem from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action.\\ \hline
+
+6.& \textbf{Recognition rather than recall} & Minimize the user's memory load by making objects, actions, and options visible. The user should not have to remember information from one part of the dialogue to another. Instructions for use of the system should be visible or easily retrievable whenever appropriate.\\ \hline
+
+
+7.& \textbf{Flexibility and efficiency of use} & Accelerators -- unseen by the novice user -- may often speed up the interaction for the expert user such that the system can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.\\ \hline
+
+8.& \textbf{Aesthetic and minimalist design} & Dialogues should not contain information which is irrelevant or rarely needed. Every extra unit of information in a dialogue competes with the relevant units of information and diminishes their relative visibility.\\ \hline
+
+9.& \textbf{Help users recognize, diagnose, and recover from errors} & Error messages should be expressed in plain language (no codes), precisely indicate the problem, and constructively suggest a solution.\\ \hline
+
+10.& \textbf{Help and documentation} & Even though it is better if the system can be used without documentation, it may be necessary to provide help and documentation. Any such information should be easy to search, focused on the user's task, list concrete steps to be carried out, and not be too large. \\
+\hline
+
+\caption{Nielsen's Ten Heuristics}
+\end{longtable}

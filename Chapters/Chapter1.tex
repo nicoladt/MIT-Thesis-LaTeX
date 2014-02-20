@@ -9,18 +9,18 @@
 %----------------------------------------------------------------------------------------
 
 \section{Introduction}
-Siyavula Education is a Cape Town-based social enterprise that creates open source high school maths and science textbooks. The books are written collaboratively by volunteers and then edited and refined in-house. The volunteer community plays a central role in the book making process. Volunteers contribute towards authoring new content, editing existing content, proofreading and translation. The final versions of the books are available as printed hard copies, PDF downloads and as web books, which can be read online using a variety of devices. 
+Siyavula Education is a Cape Town-based social enterprise that publishes open source high school maths and science textbooks. The books are written collaboratively by volunteers and then edited and refined in-house. The volunteer community plays a central role in the book making process. Volunteers contribute towards authoring new content, editing existing content, proofreading and translation. The final versions of the books are available as printed hard copies, PDF downloads and as web books, which can be read online using a variety of devices. 
 
 One mechanism by which volunteers, or any member of the public, can give Siyavula feedback is via annotations. This is not only a tool for flagging small errata in the books; Siyavula also uses annotations to get feedback from volunteers during the authoring process, and during the editing and proofreading phases.
 
 
 \subsection{Current annotation system}
 
-Currently, Siyavula uses the web-based software A.nnotate.com\footnote{\href{ http://a.nnotate.com/}{ http://a.nnotate.com/}}. To use this system the company must upload draft PDFs of a particular chapter of a book, and external users (who have been given the necessary permissions) can then view, highlight and make comments on the content. Users can select a particular “type” for their comment (error, comment or suggestion) and they can also add custom tags to comments. Any user who has access to a particular PDF can view and reply to all annotations made on the document. 
+Currently, Siyavula uses the web-based software a.nnotate.com\footnote{\href{ http://a.nnotate.com/}{ http://a.nnotate.com/}}. To use this system the company must upload draft PDFs of a particular chapter of a book, and external users (who have been given the necessary permissions) can then view, highlight and make comments on the content. Users can select a particular ``type" for their comment (error, comment or suggestion) and they can also add custom tags to comments. Any user who has access to a particular PDF can view and reply to all annotations made on the document. 
 
 A.nnotate.com is not very easy to use for volunteers who need to make annotations: pages are often slow to load (especially for large documents, and a single chapter of a book may be anywhere between 20 and 90 pages long) and the interface is not intuitive, particularly for less advanced computer users. Similarly, it is not user-friendly for the Siyavula team members who have to process annotations made. 
 
-'Processing' an annotation involves an employee locating an annotation in the context of a book (or subject or grade), assessing its validity (e.g. ``Is there really an error in the text as flagged by a volunteer?''), making changes to the book content's source code if necessary and somehow marking that annotation as resolved.
+'Processing' an annotation involves an employee locating an annotation in the context of a book (or subject or grade), assessing its validity (e.g. ``\textit{is there really an error in the text as flagged by a volunteer?}''), making changes to the book content's source code if necessary and somehow marking that annotation as resolved.
 
 To do this currently, employees have to trawl through the uploaded PDF documents one page at a time to view annotations in the context in which they were made. Whilst A.nnotate offers basic filtering, searching and sorting of notes, this functionality is predetermined (and limited) and not customised to Siyavula's workflow. For example, there is no efficient way to mark annotations as resolved or to lock down a particular annotation and its replies (one can only prevent access to the entire document). It is not possible to view annotations with a preview of the the text to which they relate and it is not possible to group annotations by subject (e.g. Maths), type or username, or to cross-reference annotations between different PDFs. There have also been problems with old annotations simply being deleted from the a.nnotate.com database.  
 
@@ -35,27 +35,26 @@ These annotations were then stored in a database, and could be viewed by employe
 %---------------------------------------------------------------------------------------------------------------------
 
 \section{The problem}
-The very limited back-end interface (a single table) provided by the new annotation software did not include any functionality for Siyavula team members to filter, search, sort or process  annotations that have been made. Users could scroll through the contents of the table, but had no tools whatsoever to manipulate or interact with the information provided. 
+The very limited back-end interface (a single table) provided by the new annotation software did not include any functionality for Siyavula team members to filter, search, sort or process annotations that have been made. Users could scroll through the contents of the table, but had no tools whatsoever to manipulate or interact with the information provided. Users had no way of meaningfully and efficiently engaging with the existing system and content.
 
-Questions that needed to be answered before a new interface could be designed included: 
-\begin{itemize}
- \item How do different internal users need to interact with existing annotations? 
- \item What new functionality do users require? 
- \item How would users want and expect the interface to look and behave?
-\end{itemize}
+
 
 %----------------------------------------------------------------------------------------
 
 \section{The solution}
-The solution to the above problem was to develop a new interface customised to Siyavula's requirements, that would make it easy for team members to filter, search for and sort existing annotations. 
+The solution to the above problem was to develop a new interface customised to Siyavula's requirements that would provide team members with new functionality to engage with existing annotations. 
 
-This would enable users to locate sets or subsets of annotations, to find individual annotations, or to view particular details about a single annotation or user, all previously impossible tasks. Such functionality could streamline the ways in which team members process and resolve annotations made by volunteers and external users.
+Being able to filter, search for, and sort existing annotations would enable users to locate sets or subsets of annotations, to find individual annotations, or to view particular details about a single annotation or user, all previously impossible tasks. Such functionality could streamline the ways in which team members process and resolve annotations made by volunteers and external users.
 
-A user-centred approach was adopted to identify and answer specific questions about user requirements and to include user feedback in as many stages of the design process as possible. Once the high-fidelity prototype was complete, user-centred evaluation was also undertaken in order to determine whether or not the final prototype properly met user requirements and expectations and adequately provided them with new and desired functionality for processing annotations \citep[p.~327]{RogersPreece}. 
+A user-centred approach was adopted to identify and answer specific questions about user requirements and to include user feedback in as many stages of the design process as possible. Once the high-fidelity prototype was complete, user-centred evaluation was also undertaken in order to determine whether or not the final prototype properly met user requirements and expectations and adequately provided them with new and desired functionality for processing annotations. 
 
+\section{Scope of the research}
+The scope of this research was limited to solving Siyavula's problem specifically. The interface was designed to meet the requirements of this company's users alone, and to fit easily into their unique existing annotation-processing pipeline. Future compatibility with other software the company uses (such as GitHub) was also taken into account. Despite this, the final interface exists independently of any underlying software and could therefore easily be repurposed to slot into a different system or process. This flexibility is desireable for Siyavula because it allows room for their underlying annotation software to change. It also means that the interface may well be of use to other external parties. In other words, while the interface was designed to solve a very specific problem, it could easily serve as a solution for other parties annotation-processing needs. 
+
+At the time of writing, Siyavula's use of annotations to capture volunteer feedback on web-based textbooks seems to be unique in the realm of open education and publishing. Nonetheless, in future this kind of workflow may well be adopted by similar organisations or organisations using annotations as tools in a larger process. If so, the need for an interface to enable users to engage with such content may become more widespread. 
 
 %----------------------------------------------------------------------------------------
 
 \section{The structure of this dissertation}
 
-Chapter 2 provides more technical details about Siyavula's annotation software and its functionality. Chapter 3 provides an overview of existing research in this field. Chapter 4 outlines the user-centred methodology, tools and design guidelines used in the development of this interface. Chapter 5 deals with the design process while Chapter 6 covers the technical details about development of the high-fidelity prototype. Chapter 7 deals in detail with the process of user-centred evaluation and iterative improvements to the interface. The success of the final interface and future work is discussed in Chapter 8.   
+Chapter 2 provides more technical details about Siyavula's annotation software and its functionality. Chapter 3 provides an overview of existing research in this field. Chapter 4 outlines the user-centred methodology, tools and design guidelines used in the development of this interface. Chapter 5 deals with the design process while Chapter 6 covers the technical details about development of the high-fidelity prototype. Chapter 7 deals in detail with the process of user-centred evaluation and iterative improvements to and testing of the interface. The success of the final interface and future work is discussed in Chapter 8.   
