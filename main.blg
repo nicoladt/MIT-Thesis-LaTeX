@@ -1,4 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: main.aux
 The style file: IEEEtran.bst
@@ -16,37 +16,37 @@ Warning--edition ordinal word "Revised" may be too high (or improper) for conver
 Done.
 You've used 62 entries,
             4039 wiz_defined-function locations,
-            1166 strings with 15682 characters,
-and the built_in function-call counts, 34639 in all, are:
-= -- 2635
-> -- 635
+            1166 strings with 15671 characters,
+and the built_in function-call counts, 34608 in all, are:
+= -- 2634
+> -- 632
 < -- 248
-+ -- 349
-- -- 98
-* -- 1551
-:= -- 5264
++ -- 347
+- -- 97
+* -- 1550
+:= -- 5260
 add.period$ -- 134
 call.type$ -- 62
 change.case$ -- 70
 chr.to.int$ -- 573
 cite$ -- 63
-duplicate$ -- 2707
-empty$ -- 3205
-format.name$ -- 127
-if$ -- 7938
+duplicate$ -- 2704
+empty$ -- 3203
+format.name$ -- 126
+if$ -- 7931
 int.to.chr$ -- 0
 int.to.str$ -- 62
-missing$ -- 478
+missing$ -- 477
 newline$ -- 261
 num.names$ -- 44
-pop$ -- 1368
+pop$ -- 1366
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 2662
+skip$ -- 2661
 stack$ -- 0
 substring$ -- 1313
-swap$ -- 1883
+swap$ -- 1881
 text.length$ -- 57
 text.prefix$ -- 0
 top$ -- 5

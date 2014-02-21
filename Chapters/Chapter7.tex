@@ -10,7 +10,7 @@
 
 
 \section{Formative evaluation}
-Formative evaluation is evaluation that takes place during the design process and is used to improve a design citep[p. 149]{Hartson}. It focuses on identifying usability problems in a prototype that should and can be addressed during an iterative design process. It also ensures that users continue to be included in development, because their feedback is central to improving the design \citep{GabbardHix}. 
+Formative evaluation is evaluation that takes place during the design process and is used to improve a design \citep[p. 149]{Hartson}. It focuses on identifying usability problems in a prototype that should and can be addressed during an iterative design process. It also ensures that users continue to be included in development, because their feedback is central to improving the design \citep{GabbardHix}. 
 
 The goal of the formative evaluation process was firstly to determine that the high-fidelity prototype was an accurate representation of the paper prototype, according to the users' conceptual models, and secondly to establish that the interface met the high-level user requirements determined earlier in the design process.
 
@@ -19,6 +19,8 @@ Following the process outlined by Gabbard et al  \citep{GabbardHix}, user questi
 Users were first asked interview-type questions to assess their conceptual interpretation of the interface. Without interacting with the system (they could move the mouse and hover over elements, but not click on anything), users were asked what they thought various visual elements represented, and how they would expect them to behave were they to interact with them. These questions were designed to determine initial user expectations and assumptions, and were phrased such as ``\textit{what do you think xx represents?}" and ``\textit{what would you expect to happen if you clicked on yy?}". 
 
 Users were then asked to complete the tasks (with free reign of the mouse or keyboard), which were contextualised with reality-based scenarios.
+
+%need a bit more here on how tasks represented/tested use cases from requirements analysis
 
 The test questions are documented as follows.
 
@@ -130,6 +132,11 @@ In addition, the evaluator also noticed a number of bugs and issues with the int
 \item It was noted that the numeric date sort did not work correctly because of the order in which the date components (year, month etc) were parsed by the JavaScript. 
 \item It was also noted that not one user pressed the [Esc] key to exit the detailed view. 
 \end{itemize}
+
+Aside from these issues, it was evident from the formative usability tests that the interface definitely provided users with news ways of interacting with saved annotations. These included being able to filter by meaningful categories (such as subject and grade), to search for annotations made by a specific external user, and to view detailed information about a particular annotation. 
+
+%need a bit more here on "whilst there were issues, the first interface was a decent representation of the paper prototype and def gave users brand new functionality, according to user requirements and use cases"
+
 
 \section{Improvements to the prototype}
 Based on the above observations, improvements to the prototype were implemented as is detailed in the following sections. Due to the very small sample size, no meaningful statistical analysis could be performed on the test data \citep[p. 149]{Hartson}. Instead all user feedback was taken into consideration and where feedback was conflicting, changes were implemented according to best design practices (such as those detailed in Chapter 5), or the most universal design pattern possible.
@@ -246,6 +253,10 @@ The result of the above implemented changes was an interface that looked much th
     \includegraphics[width=\textwidth]{Figures/V2/wholeUI.png}
  \caption{The new user search box, with improved placeholder text, a Search button, and better styling.}
 \end{figure}
+
+%paragraph here about how improvements fed into high level goals. Not just details. Improvements would make achieving high level goals easier, more intuitive, robust. differentiate interface elements better (e.g. username search and reset button) "Before moving onto the summative evaluation you should have a summary paragraph reviewing the changes you made with respect to the higher level goals – i.e making it easier to navigate, identify and sort"
+
+
 
 \section{Summative evaluation}
 Summative evaluation is performed at the end of the design process, to ``assess the success of a finished product" \citep[p. 437]{RogersPreece}. Whilst it is often comparative (i.e. comparing the performance of two interfaces \citep[p. 54]{GabbardHix}) in this case there was no alternative, existing interface with which to do a meaningful comparison. Additionally, whilst summative evaluation often includes statistical analysis \cite[p. 149]{Hartson} in this case the pool of available users who could be included in user tests was simply too small: a sample of 5 individuals is arguably not sufficiently large to perform meaningful quantitative analysis. 
@@ -373,6 +384,8 @@ In summary, whilst there were two questions that wielded slightly perplexing res
 
 \subsection{Heuristic evaluation}
 
+%para here explaining rationale for when heuristic evaluation was undertaken (more on how it compliments usability tests?), who did it and what did I do. How did heuristic tasks map to design principles/heuristics themselves (tasks were similar to those in usability tests - tested every aspect of interface acc to heuristics)
+
 The evaluation of the interface according to Nielsen's heuristics \citep{NielsenMack} is outlined as follows.
 \begin{enumerate}
  \item \textbf{Visibility of system status}: Having the filters and corresponding (selected) annotations simultaneously visible in the interface provides users with as much information as possible. Because the checkbox selection directly affects the annotations displayed, a one-to-one mapping occurs, and the status of checkboxes on the left therefore serves as a kind of navigational indicator - what is ticked on the left corresponds to what a user can expect to see on the right. \\
@@ -419,6 +432,9 @@ To summarise suggested improvements identified during the heuristic evaluation:
  \item The empty table message could be more informative if it suggested how users can recover from this state, instead of just describing what has happened. Similarly, brief inline or mouseover help text (e.g. keyboard shortcuts) would be beneficial, to reduce the recall load on users and to provide useful, in situ documentation. 
  \item Including simple documentation about the system and how to use it would also be beneficial, particularly in the event that system is used by a different set of users to those for whom it was designed. 
 \end{itemize}
+
+%need summary para here about higher level stuff - how did heuristic findings differ or compliment earlier usability tests? Acc to hueristics, does interface allow achievement of high level goals? 
+
 \section{Discussion}
 Overall the iterative, user-centred process of prototype design, formative evaluation, improvements to the design, and summative evaluation was a positive and constructive experience. It proved to be immensely useful to get user feedback in two stages and the feedback acquired from the formative design definitely helped to improve the design and iron out fundamental issues early on in development.
 
@@ -436,4 +452,7 @@ Firstly, during usability tests the importance of the interpretation of words be
 
 Secondly, during the heuristic evaluation process, one thing that became evident was the lack of documentation. This occurred mainly because the system is designed for a small group of experienced, high-end users of technology who would likely not need extensive documentation to find their way around a relatively simple interface.  Whilst following a user-centred process has undoubtedly resulted in an interface tailor-made to the said users' needs, it is interesting to consider how new users would find the system, and whether or not it would be intuitive for them too. For example, if the company expands dramatically, would new employees also find the interface relatively straight-forward to use, or would they have (new) difficulties with it because it was not designed for them? All of this speaks to the extensibility of the system - how easily can it be reused or expanded. The possibility exists that a user-centred process with such a small group of users inadvertently resulted in a design that is not hugely extensible or remixable for a different set of users.
 
+%something here about high level stuff - more on success of interface. It really allowed uesrs to perform new tasks - achieved its objective. 
+
 The final discussion about the success of the interface in terms of the original research question will be discussed in the following conclusive chapter. 
+

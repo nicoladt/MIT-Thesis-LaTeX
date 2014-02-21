@@ -85,7 +85,7 @@ R.~A. Arko, K.~M. Ginger, K.~A. Kastens, and J.~Weatherley, ``Using annotations
 \BIBentrySTDinterwordspacing
 
 \bibitem{Berners-Lee}
-T.~Berners-Lee, J.~Hendler, O.~Lassila \emph{et~al.}, ``The semantic web,''
+T.~Berners-Lee, J.~Hendler, and O.~Lassila, ``The semantic web,''
   \emph{Scientific American}, vol. 284, no.~5, pp. 28--37, 2001.
 
 \bibitem{Uren}
@@ -280,8 +280,8 @@ B.~D. Harper and K.~L. Norman, ``{Improving user satisfaction: The
 
 \bibitem{Nielsen1995}
 \BIBentryALTinterwordspacing
-N.~J, ``{Usability Problems Found by Heuristic Evaluation.}'' 1995, accessed:
-  January 2014. [Online]. Available:
+J.~Nielsen, ``{Usability Problems Found by Heuristic Evaluation.}'' 1995,
+  accessed: January 2014. [Online]. Available:
   \url{http://www.nngroup.com/articles/usability-problems-found-by-heuristic-evaluation/}
 \BIBentrySTDinterwordspacing
 
@@ -292,15 +292,15 @@ J.~Nielsen and R.~Molich, ``Heuristic evaluation of user interfaces,'' in
 
 \bibitem{NielsenHow}
 \BIBentryALTinterwordspacing
-N.~J, ``How to conduct a heuristic evaluation,'' 1995, accessed: December 2013.
-  [Online]. Available:
+J.~Nielsen, ``{How to Conduct a Heuristic Evaluation},'' 1995, accessed:
+  December 2013. [Online]. Available:
   \url{http://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{NielsenMack}
-------, ``Heuristic evaluation,'' in \emph{Usability Inspection Methods}, N.~J
-  and M.~RL, Eds.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY: John
-  Wiley \& Sons, 1994.
+------, ``Heuristic evaluation,'' in \emph{Usability Inspection Methods},
+  J.~Nielsen and R.~Mack, Eds.\hskip 1em plus 0.5em minus 0.4em\relax New York,
+  NY: John Wiley \& Sons, 1994.
 
 \bibitem{Galitz}
 W.~O. Galitz, \emph{The essential guide to user interface design},
@@ -321,9 +321,9 @@ B.~Shneiderman, ``Response time and display rate in human performance with
   265--285, 1984.
 
 \bibitem{Nah}
-F.~F.-H. Nah, ``A study on tolerable waiting time: how long are web users
-  willing to wait?'' \emph{Behaviour \& Information Technology}, vol.~23,
-  no.~3, pp. 153--163, 2004.
+F.~F. Nah, ``A study on tolerable waiting time: how long are web users willing
+  to wait?'' \emph{Behaviour \& Information Technology}, vol.~23, no.~3, pp.
+  153--163, 2004.
 
 \bibitem{QUISquant}
 \BIBentryALTinterwordspacing
@@ -333,8 +333,8 @@ F.~F.-H. Nah, ``A study on tolerable waiting time: how long are web users
 \BIBentrySTDinterwordspacing
 
 \bibitem{Faulkner}
-L.~Faulkner, ``Beyond the five-user assumption: Benefits of increased sample
-  sizes in usability testing,'' \emph{Behavior Research Methods, Instruments,
+L.~Faulkner, ``{Beyond the five-user assumption: Benefits of increased sample
+  sizes in usability testing},'' \emph{Behavior Research Methods, Instruments,
   \& Computers}, vol.~35, no.~3, pp. 379--383, 2003.
 
 \bibitem{Dicks}
