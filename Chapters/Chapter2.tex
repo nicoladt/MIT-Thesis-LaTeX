@@ -14,7 +14,7 @@ The beta version of Siyavula's Annotator software allowed people to highlight HT
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.4\textwidth]{Figures/annotator1.png}
- \caption{Highlighted text with the ``Annotate'' icon}
+ \caption{Highlighted text with the "Annotate'' icon}
 \end{figure}
 
 Annotations could be made in one of three categories: errata, suggestion and comment.
@@ -24,19 +24,19 @@ Annotations could be made in one of three categories: errata, suggestion and com
  \caption{Three categories of annotation}
 \end{figure}
 
-They were then stored in a database for future reference. All users could view existing annotations on a webpage when they logged in to the annotated version of the webbook. Users could also reply to existing annotations made by themselves, or other users.
+They were then stored in a database for future reference. All users could view existing annotations on a webpage when they logged into the annotated version of the webbook. Users could also reply to existing annotations made by themselves or other users.
 
 %-----------------------------------------
 \section{Technical details of Annotator}
-The annotation software Siyavula decided to utilise (and modify for the company's own purposes) is based on an open source application called ``Annotator"\footnote{\href{ http://okfnlabs.org/annotator/}{ http://okfnlabs.org/annotator/}} (forked by Siyavula's developer at \href{https://github.com/ezietsman/annotator}{https://github.com/ezietsman/annotator}). Annotator is a Javascript application that is written in Coffeescript. It uses a Couch database and has a Python server back-end. It does not come packaged with any functional user interface for the viewing of saved annotations outside of the webpage where they were made.
+The annotation software Siyavula decided to utilise (and modify for the company's own purposes) is based on an open source application called "Annotator"\footnote{\href{ http://okfnlabs.org/annotator/}{ http://okfnlabs.org/annotator/}} (forked by Siyavula's developer at \href{https://github.com/ezietsman/annotator}{https://github.com/ezietsman/annotator}). Annotator is a Javascript application that is written in CoffeeScript\footnote{\href{http://coffeescript.org/}{http://coffeescript.org/}}. It uses CouchDB\footnote{\href{http://couchdb.apache.org/}{http://couchdb.apache.org/}} and has a Python server back-end. It does not come packaged with any functional user interface for the viewing of saved annotations outside of the webpage where they were made.
 
 Siyavula's version of Annotator ran on static versions of the company's webbooks, not on the latest live versions.
 
 %-----------------------------------------
-\section{Existing Interface}
-The backend interface for the annotator consisted of a simple table list of annotations.
+\section{Existing interface}
+The back-end interface for the annotator consisted of a simple table list of annotations.
 
-Table columns included: ``Type", ``id" (the database primary key), ``Comment" (the text typed by the user), ``User", ``Time" (date and time) and ``URL" (the webpage on which the annotation was made.) Most recent annotations were listed first. The type of annotation was also indicated by one of three colours in the left hand column.
+Table columns included: "Type", "id" (the database primary key), "Comment" (the text typed by the user), "User", "Time" (date and time) and "URL" (the webpage on which the annotation was made.) Most recent annotations were listed first. The type of annotation was also indicated by one of three colours in the left-hand column.
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{Figures/annotator-backend-table.png}

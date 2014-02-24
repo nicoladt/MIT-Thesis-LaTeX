@@ -1,35 +1,35 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Highlighted text with the ``Annotate'' icon\relax }}{6}{figure.caption.27}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Three categories of annotation\relax }}{7}{figure.caption.28}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces The existing back-end interface: a simple table of stored annotation data\relax }}{8}{figure.caption.32}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Highlighted text with the "Annotate'' icon\relax }}{6}{figure.caption.24}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Three categories of annotation\relax }}{7}{figure.caption.25}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The existing back-end interface: a simple table of stored annotation data\relax }}{8}{figure.caption.31}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Users' initial drop-down interface idea\relax }}{29}{figure.caption.64}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Users' second interface idea involving filter/search options on the left and results on the right.\relax }}{30}{figure.caption.66}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces The final paper prototype.\relax }}{34}{figure.caption.75}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Filter boxes in the final paper prototype.\relax }}{36}{figure.caption.83}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Table heading columns in the final paper prototype.\relax }}{36}{figure.caption.84}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Detailed view overlay in the final paper prototype, showing more information for a specific annotation.\relax }}{37}{figure.caption.85}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Participants' initial drop-down interface idea\relax }}{29}{figure.caption.63}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Participants' second interface idea with filter/search options on the left and results on the right.\relax }}{30}{figure.caption.65}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces The final paper prototype.\relax }}{35}{figure.caption.74}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Filter boxes in the final paper prototype.\relax }}{36}{figure.caption.82}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Table heading columns in the final paper prototype.\relax }}{37}{figure.caption.83}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Detailed view overlay in the final paper prototype.\relax }}{38}{figure.caption.84}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Balsamiq mockup of the final paper prototype. \relax }}{40}{figure.caption.89}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Screenshot of the high fidelity prototype. \relax }}{40}{figure.caption.92}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Text beneath the table indicated how many rows (annotations) are surfaced\relax }}{42}{figure.caption.96}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Single selection of sub-checkbox, compared to selection of ``All" checkbox.\relax }}{44}{figure.caption.100}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Subject, with ``All" checked vs. Grade, with ``All" \textbf {unchecked} and all sub-checkboxes activated.\relax }}{44}{figure.caption.101}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces The username search box and Reset button.\relax }}{45}{figure.caption.102}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces ``Sortable" vs ``Sorted: descending" icons in the table header\relax }}{45}{figure.caption.103}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Grey row colour and zoom icon on hover.\relax }}{45}{figure.caption.104}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces The detailed view overlay.\relax }}{46}{figure.caption.105}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Balsamiq mockup of the final paper prototype.\relax }}{41}{figure.caption.88}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Screenshot of the high-fidelity prototype.\relax }}{43}{figure.caption.94}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Text beneath the table indicated how many rows (annotations) are surfaced\relax }}{44}{figure.caption.95}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Single selection of sub-checkbox, compared to selection of "All" checkbox.\relax }}{46}{figure.caption.99}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Subject, with "All" checked vs. Grade, with "All" unchecked and all sub-checkboxes activated.\relax }}{47}{figure.caption.100}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces The username search box and "Reset" button.\relax }}{47}{figure.caption.101}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces "Sortable" vs "sorted: descending" icons in the table header\relax }}{47}{figure.caption.102}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Grey row colour and zoom icon on hover.\relax }}{48}{figure.caption.103}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces The detailed view overlay.\relax }}{48}{figure.caption.104}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Improved checkboxes: no checkboxes were greyed out, to indicate that sub-checkboxes were clickable. Additionally, sub-checkboxes were indented slightly. \relax }}{60}{figure.caption.162}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Deselecting an ``All" checkbox selects all sub-checkboxes, allowing for a quick inverted selection\relax }}{60}{figure.caption.163}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Previous sort icons and table header colour.\relax }}{61}{figure.caption.167}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces New sort icons and table header colour.\relax }}{61}{figure.caption.168}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces The previous reset button, could be interpreted as being related to the username search box.\relax }}{62}{figure.caption.170}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces The new reset button has improved microcopy (button label) and better styling to indicate that it's not related to the username search box.\relax }}{62}{figure.caption.171}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces The previous username search box.\relax }}{62}{figure.caption.173}
-\contentsline {figure}{\numberline {7.8}{\ignorespaces The new user search box, with improved placeholder text, a Search button, and better styling.\relax }}{63}{figure.caption.174}
-\contentsline {figure}{\numberline {7.9}{\ignorespaces The new user search box, with improved placeholder text, a Search button, and better styling.\relax }}{64}{figure.caption.181}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Improved checkboxes: no checkboxes were greyed-out and sub-checkboxes were indented.\relax }}{64}{figure.caption.162}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Deselecting an "All" checkbox selects all sub-checkboxes.\relax }}{64}{figure.caption.163}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Former sort icons and table header colour.\relax }}{65}{figure.caption.167}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces New sort icons and table header colour.\relax }}{66}{figure.caption.168}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces The former "Reset" button.\relax }}{66}{figure.caption.170}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces The new "Reset" button with improved microcopy and styling.\relax }}{66}{figure.caption.171}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces The previous username search box.\relax }}{67}{figure.caption.173}
+\contentsline {figure}{\numberline {7.8}{\ignorespaces The new username search box with a search button and improved copy and styling.\relax }}{67}{figure.caption.174}
+\contentsline {figure}{\numberline {7.9}{\ignorespaces The new username search box, with a "Search" button and better styling.\relax }}{69}{figure.caption.182}
 \addvspace {10\p@ }

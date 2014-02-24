@@ -27,187 +27,231 @@ D.~Thompson, Ed., \emph{{The Concise Oxford Dictionary of Current English}},
   Press, 1995.
 
 \bibitem{LEMO}
-B.~Haslhofer, J.~Wolfgang, R.~King, C.~Sadilek, and K.~Schellner, ``The {LEMO}
+B.~Haslhofer, J.~Wolfgang, R.~King, C.~Sadilek, and K.~Schellner, ''The {LEMO}
   annotation framework: weaving multimedia annotations with the web,''
-  \emph{International Journal on Digital Libraries}, vol.~10, no.~1, pp.
-  15--32, 2009.
+  \emph{International Journal on Digital Libraries}, vol.~10, no.~1, p.
+  15—32, 2009.
 
 \bibitem{Ovsiannikov}
-I.~A. Ovsiannikov, M.~A. Arbib, and T.~H. McNeill, ``Annotation technology,''
-  \emph{International journal of human-computer studies}, vol.~50, no.~4, pp.
-  329--362, 1999.
+I.~A. Ovsiannikov, M.~A. Arbib, and T.~H. McNeill, ''Annotation technology,''
+  \emph{International journal of human-computer studies}, vol.~50, no.~4, p.
+  329—362, 1999.
 
 \bibitem{Marshall2000}
-C.~C. Marshall, ``The future of annotation in a digital (paper) world,'' in
+C.~C. Marshall, ''The future of annotation in a digital (paper) world,'' in
   \emph{Proceedings of the 35th Annual Clinic on Library Applications of Data
-  Processing: Successes and Failures of Digital Libraries}, 2000, pp. 43--53.
+  Processing: Successes and Failures of Digital Libraries}, 2000, p. 43—53.
 
 \bibitem{Marshall2004}
-C.~C. Marshall and A.~B. Brush, ``Exploring the relationship between personal
+C.~C. Marshall and A.~B. Brush, ''Exploring the relationship between personal
   and public annotations,'' in \emph{Digital Libraries, 2004. Proceedings of
   the 2004 Joint ACM/IEEE Conference on}.\hskip 1em plus 0.5em minus
-  0.4em\relax IEEE, 2004, pp. 349--357.
+  0.4em\relax IEEE, 2004, p. 349—357.
 
 \bibitem{Agosti}
-M.~Agosti, N.~Ferro, I.~Frommholz, and U.~Thiel, ``Annotations in digital
+M.~Agosti, N.~Ferro, I.~Frommholz, and U.~Thiel, ''Annotations in digital
   libraries and collaboratories-facets, models and usage,'' in \emph{Research
   and Advanced Technology for Digital Libraries}.\hskip 1em plus 0.5em minus
-  0.4em\relax Springer, 2004, pp. 244--255.
+  0.4em\relax Springer, 2004, p. 244—255.
 
 \bibitem{Arko}
-R.~A. Arko, K.~M. Ginger, K.~A. Kastens, and J.~Weatherley, ``Using annotations
+R.~A. Arko, K.~M. Ginger, K.~A. Kastens, and J.~Weatherley, ''Using annotations
   to add value to a digital library for education,'' \emph{D-Lib Magazine},
   vol.~12, no.~5, p.~2, 2006.
 
 \bibitem{MSOffice}
 \BIBentryALTinterwordspacing
-``{Microsoft Office}.'' [Online]. Available: \url{http://office.microsoft.com}
+''{Microsoft Office}.'' [Online]. Available: \url{http://office.microsoft.com}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Adobe}
 \BIBentryALTinterwordspacing
-``{Adobe Reader}.'' [Online]. Available: \url{http://get.adobe.com/reader/}
+''{Adobe Reader}.'' [Online]. Available: \url{http://get.adobe.com/reader/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{GDrive}
 \BIBentryALTinterwordspacing
-``{Google Drive}.'' [Online]. Available: \url{https://drive.google.com/}
+''{Google Drive}.'' [Online]. Available: \url{https://drive.google.com/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{AnnotateCom}
 \BIBentryALTinterwordspacing
-``{A.nnotate.com}.'' [Online]. Available: \url{http://a.nnotate.com/‎}
+''{A.nnotate.com}.'' [Online]. Available: \url{http://a.nnotate.com/‎}
 \BIBentrySTDinterwordspacing
 
 \bibitem{AnnotateIt}
 \BIBentryALTinterwordspacing
-``{AnnotateIt}.'' [Online]. Available: \url{http://annotateit.org/}
+''{AnnotateIt}.'' [Online]. Available: \url{http://annotateit.org/}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Amazon}
+\BIBentryALTinterwordspacing
+''{Amazon.com}.'' [Online]. Available: \url{http://www.amazon.com/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{eBay}
+\BIBentryALTinterwordspacing
+''{eBay}.'' [Online]. Available: \url{www.ebay.com/‎}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Hearst}
+M.~Hearst, ''Design recommendations for hierarchical faceted search
+  interfaces,'' in \emph{ACM SIGIR workshop on faceted search}.\hskip 1em plus
+  0.5em minus 0.4em\relax Seattle, WA, 2006, p. 1—5.
+
+\bibitem{Yitzhak}
+O.~Ben-Yitzhak, N.~Golbandi, N.~Har'El, R.~Lempel, A.~Neumann, S.~Ofek-Koifman,
+  D.~Sheinwald, E.~Shekita, B.~Sznajder, and S.~Yogev, ''Beyond basic faceted
+  search,'' in \emph{Proceedings of the 2008 International Conference on Web
+  Search and Data Mining}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2008, p.
+  33—44.
+
+\bibitem{Kules}
+B.~Kules, R.~Capra, M.~Banta, and T.~Sierra, ''What do exploratory searchers
+  look at in a faceted search interface?'' in \emph{Proceedings of the 9th
+  ACM/IEEE-CS joint conference on Digital libraries}.\hskip 1em plus 0.5em
+  minus 0.4em\relax ACM, 2009, p. 313—322.
+
+\bibitem{ShneidermanDynamic}
+B.~Shneiderman, ''Dynamic queries for visual information seeking,''
+  \emph{Software, IEEE}, vol.~11, no.~6, p. 70—77, 1994.
+
+\bibitem{PlaisantQueryPreview}
+C.~Plaisant, B.~Shneiderman, K.~Doan, and T.~Bruns, ''Interface and data
+  architecture for query preview in networked information systems,'' \emph{ACM
+  Transactions on Information Systems (TOIS)}, vol.~17, no.~3, p. 320—341,
+  1999.
+
+\bibitem{Card}
+S.~K. Card, J.~D. Mackinlay, and B.~Shneiderman, \emph{Readings in information
+  visualization: using vision to think}.\hskip 1em plus 0.5em minus 0.4em\relax
+  Morgan Kaufmann, 1999.
+
 \bibitem{Berners-Lee}
-T.~Berners-Lee, J.~Hendler, and O.~Lassila, ``The semantic web,''
-  \emph{Scientific American}, vol. 284, no.~5, pp. 28--37, 2001.
+T.~Berners-Lee, J.~Hendler, and O.~Lassila, ''The semantic web,''
+  \emph{Scientific American}, vol. 284, no.~5, p. 28—37, 2001.
 
 \bibitem{Uren}
 V.~Uren, P.~Cimiano, J.~Iria, S.~Handschuh, M.~Vargas-Vera, E.~Motta, and
-  F.~Ciravegna, ``{Semantic annotation for knowledge management: Requirements
+  F.~Ciravegna, ''{Semantic annotation for knowledge management: Requirements
   and a survey of the state of the art},'' \emph{Web Semantics: science,
-  services and agents on the World Wide Web}, vol.~4, no.~1, pp. 14--28, 2006.
+  services and agents on the World Wide Web}, vol.~4, no.~1, p. 14—28, 2006.
 
 \bibitem{kahan2002annotea}
-J.~Kahan, M.-R. Koivunen, E.~Prud'Hommeaux, and R.~R. Swick, ``Annotea: an open
-  {RDF} infrastructure for shared web annotations,'' \emph{Computer Networks},
-  vol.~39, no.~5, pp. 589--608, 2002.
+J.~Kahan, M.-R. Koivunen, E.~Prud'Hommeaux, and R.~R. Swick, ''{Annotea: an
+  open RDF infrastructure for shared Web annotations},'' \emph{Computer
+  Networks}, vol.~39, no.~5, p. 589—608, 2002.
 
 \bibitem{handschuh2002authoring}
-S.~Handschuh and S.~Staab, ``Authoring and annotation of web pages in
-  {CREAM},'' in \emph{Proceedings of the 11th international conference on World
-  Wide Web}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2002, pp. 462--473.
+S.~Handschuh and S.~Staab, ''{Authoring and annotation of web pages in
+  CREAM},'' in \emph{Proceedings of the 11th international conference on World
+  Wide Web}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2002, p. 462—473.
 
 \bibitem{Amaya}
 \BIBentryALTinterwordspacing
-``Amaya.'' [Online]. Available: \url{http://www.w3.org/Amaya/}
+''Amaya.'' [Online]. Available: \url{http://www.w3.org/Amaya/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Annotea}
 \BIBentryALTinterwordspacing
-``Annotea.'' [Online]. Available:
+''Annotea.'' [Online]. Available:
   \url{http://www.w3.org/2001/Annotea/User/Tutorial/quicktutorial.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Annozilla}
 \BIBentryALTinterwordspacing
-``Annozilla.'' [Online]. Available: \url{http://annozilla.mozdev.org/}
+''Annozilla.'' [Online]. Available: \url{http://annozilla.mozdev.org/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Annotator}
 \BIBentryALTinterwordspacing
-``Annotator.'' [Online]. Available: \url{http://okfnlabs.org/annotator/}
+''Annotator.'' [Online]. Available: \url{http://okfnlabs.org/annotator/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{AnnotatorAPI}
 \BIBentryALTinterwordspacing
-``{Annotator API Documentation}.'' [Online]. Available:
-  \url{https://github.com/okfn/annotator/wiki/Storage}
+''{Annotator API Documentation},'' {[Accessed: 8 January, 2014]}. [Online].
+  Available: \url{https://github.com/okfn/annotator/wiki/Storage}
 \BIBentrySTDinterwordspacing
 
 \bibitem{debora}
 D.~Nichols, D.~Pemberton, S.~Dalhoumi, O.~Larouk, C.~Belisle, and M.~Twidale,
-  ``{DEBORA}: Developing an interface to support collaboration in a digital
-  library,'' in \emph{Research and Advanced Technology for Digital
-  Libraries}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2000, pp.
-  239--248.
+  ''{DEBORA: Developing an interface to support collaboration in a digital
+  library},'' in \emph{Research and Advanced Technology for Digital
+  Libraries}.\hskip 1em plus 0.5em minus 0.4em\relax Springer, 2000, p.
+  239—248.
 
 \bibitem{DeboraLink}
 \BIBentryALTinterwordspacing
-``{DEBORA}.'' [Online]. Available:
+''{DEBORA},'' {[Accessed: 6 January, 2014]}. [Online]. Available:
   \url{http://www.comp.lancs.ac.uk/computing/research/cseg/projects/debora/set.html}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Mojiti}
 \BIBentryALTinterwordspacing
-``Mojiti.'' [Online]. Available:
+''Mojiti,'' {[Accessed 7 January, 2014]}. [Online]. Available:
   \url{http://web.archive.org/web/20071019205040/http://mojiti.com/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{InternetArchive}
 \BIBentryALTinterwordspacing
-``{The Internet Archive}.'' [Online]. Available: \url{http://archive.org/web/}
+''{The Internet Archive}.'' [Online]. Available: \url{http://archive.org/web/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{YouTubeAnns}
 \BIBentryALTinterwordspacing
-``{YouTube Annotations}.'' [Online]. Available:
+''{YouTube Annotations}.'' [Online]. Available:
   \url{https://www.youtube.com/t/annotations_about}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Vannotea}
 \BIBentryALTinterwordspacing
-``Vannotea.'' [Online]. Available:
+''Vannotea.'' [Online]. Available:
   \url{http://www.itee.uq.edu.au/eresearch/projects/vannotea}
 \BIBentrySTDinterwordspacing
 
 \bibitem{AnnoteaSidebarDoc}
 \BIBentryALTinterwordspacing
-``Annotea sidebar documentation.'' [Online]. Available:
+''Annotea sidebar documentation,'' {[Accessed 7 January, 2014]}. [Online].
+  Available:
   \url{http://www.itee.uq.edu.au/eresearch/filething/files/get/projects/vannotea/Annotea%20Sidebar%20-%20User%20Documentation.pdf}
 \BIBentrySTDinterwordspacing
 
 \bibitem{WebAnnotator1}
 \BIBentryALTinterwordspacing
-``Mozilla {WebAnnotator} addon.'' [Online]. Available:
+''{Mozilla WebAnnotator Add-on}.'' [Online]. Available:
   \url{https://addons.mozilla.org/en-US/firefox/addon/webannotator/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{WebAnnotator2}
 \BIBentryALTinterwordspacing
-``{WebAnnotator}.'' [Online]. Available:
+''{WebAnnotator}.'' [Online]. Available:
   \url{http://perso.limsi.fr/xtannier/en/WebAnnotator/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{YawasLink}
 \BIBentryALTinterwordspacing
-``Yawas.'' [Online]. Available: \url{http://www.keeness.net/yawas/index.htm}
+''Yawas.'' [Online]. Available: \url{http://www.keeness.net/yawas/index.htm}
 \BIBentrySTDinterwordspacing
 
 \bibitem{GBookmarks}
 \BIBentryALTinterwordspacing
-``{Google Bookmarks}.'' [Online]. Available:
+''{Google Bookmarks}.'' [Online]. Available:
   \url{https://www.google.co.za/bookmarks/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Yawas}
-L.~Denoue and L.~Vignollet, ``An annotation tool for {Web} browsers and its
+L.~Denoue and L.~Vignollet, ''An annotation tool for {Web} browsers and its
   applications to information retrieval.'' in \emph{RIAO}.\hskip 1em plus 0.5em
-  minus 0.4em\relax Citeseer, 2000, pp. 180--195.
+  minus 0.4em\relax Citeseer, 2000, p. 180—195.
 
 \bibitem{Hypothesis}
 \BIBentryALTinterwordspacing
-``Hypothes.is.'' [Online]. Available: \url{http://hypothes.is/}
+''Hypothes.is.'' [Online]. Available: \url{http://hypothes.is/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Abras}
-C.~Abras, D.~Maloney-Krichmar, and J.~Preece, ``User-centered design,'' in
+C.~Abras, D.~Maloney-Krichmar, and J.~Preece, ''User-centered design,'' in
   \emph{Encyclopedia of Human-Computer Interaction.}, W.~Bainbridge, Ed.\hskip
   1em plus 0.5em minus 0.4em\relax Great Barrington, Massachussetts: Berkshire
   Publishing Group LLC, 2004.
@@ -218,9 +262,9 @@ Y.~Rogers, H.~Sharp, and J.~Preece, \emph{{Interaction Design}: beyond
   Chichester: John Wiley \& Sons Ltd, 2011.
 
 \bibitem{GouldLewis}
-J.~D. Gould and C.~Lewis, ``Designing for usability: key principles and what
-  designers think,'' \emph{Communications of the ACM}, vol.~28, no.~3, pp.
-  300--311, 1985.
+J.~D. Gould and C.~Lewis, ''Designing for usability: key principles and what
+  designers think,'' \emph{Communications of the ACM}, vol.~28, no.~3, p.
+  300—311, 1985.
 
 \bibitem{BeyerHoltzblatt}
 H.~Beyer and K.~Holtzblatt, \emph{Contextual design: defining customer-centered
@@ -228,12 +272,12 @@ H.~Beyer and K.~Holtzblatt, \emph{Contextual design: defining customer-centered
   Kaufmann Publishers, 1998.
 
 \bibitem{Johnson}
-J.~Johnson and A.~Henderson, ``Conceptual models: begin by designing what to
-  design,'' \emph{interactions}, vol.~9, no.~1, pp. 25--32, January/February
+J.~Johnson and A.~Henderson, ''Conceptual models: begin by designing what to
+  design,'' \emph{interactions}, vol.~9, no.~1, p. 25—32, January/February
   2002.
 
 \bibitem{DixFinlay}
-A.~Dix, J.~Finlay, G.~Abowd, and R.~Beale, \emph{Human-computer Interaction},
+A.~Dix, J.~Finlay, G.~Abowd, and R.~Beale, \emph{{Human-computer Interaction}},
   3rd~ed.\hskip 1em plus 0.5em minus 0.4em\relax Harlow, Essex: Pearson
   Education Limited, 2004.
 
@@ -243,13 +287,13 @@ B.~Shneiderman and C.~Plaisant, \emph{{Designing the user interface: Strategies
   minus 0.4em\relax Boston, MA: Addison Weasley, 2004.
 
 \bibitem{NielsenHeuristics}
-J.~Nielsen and R.~Molich, ``Heuristic evaluation of user interfaces,'' in
+J.~Nielsen and R.~Molich, ''Heuristic evaluation of user interfaces,'' in
   \emph{Proceedings of the SIGCHI conference on Human factors in computing
-  systems}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 1990, pp. 249--256.
+  systems}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 1990, p. 249—256.
 
 \bibitem{Spinuzzi}
-C.~Spinuzzi, ``The methodology of participatory design,'' \emph{Technical
-  Communication}, vol.~52, no.~2, pp. 163--174, 2005.
+C.~Spinuzzi, ''The methodology of participatory design,'' \emph{Technical
+  Communication}, vol.~52, no.~2, p. 163—174, 2005.
 
 \bibitem{HackosRedish}
 J.~T. Hackos and J.~Redish, \emph{User and task analysis for interface
@@ -257,50 +301,43 @@ J.~T. Hackos and J.~Redish, \emph{User and task analysis for interface
   Sons, Inc., 1998.
 
 \bibitem{GabbardHix}
-J.~L. Gabbard, D.~Hix, and J.~E. Swan, ``User-centered design and evaluation of
+J.~L. Gabbard, D.~Hix, and J.~E. Swan, ''User-centered design and evaluation of
   virtual environments,'' \emph{Computer Graphics and Applications, IEEE},
-  vol.~19, no.~6, pp. 51--59, 1999.
+  vol.~19, no.~6, p. 51—59, 1999.
 
 \bibitem{QUIS}
 \BIBentryALTinterwordspacing
-``{Questionnaire for User Interaction Satisfaction (QUIS), Version 7}.''
-  [Online]. Available: \url{http://www.lap.umd.edu/quis/}
+''{Questionnaire for User Interaction Satisfaction (QUIS), Version 7},''
+  {[Accessed 14 November, 2013]}. [Online]. Available:
+  \url{http://www.lap.umd.edu/quis/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{Harper1997}
-B.~D. Harper, L.~A. Slaughter, and K.~L. Norman, ``{Questionnaire
+B.~D. Harper, L.~A. Slaughter, and K.~L. Norman, ''{Questionnaire
   Administration Via the WWW: A Validation \& Reliability Study for a User
-  Satisfaction Questionnaire.}'' in \emph{WebNet}, vol.~97, 1997, pp. 1--4.
+  Satisfaction Questionnaire.}'' in \emph{WebNet}, vol.~97, 1997, p. 1—4.
 
 \bibitem{Harper1993}
-B.~D. Harper and K.~L. Norman, ``{Improving user satisfaction: The
+B.~D. Harper and K.~L. Norman, ''{Improving user satisfaction: The
   questionnaire for user interaction satisfaction version 5.5},'' in
   \emph{Proceedings of the 1st Annual Mid-Atlantic Human Factors Conference},
-  1993, pp. 224--228.
-
-\bibitem{Nielsen1995}
-\BIBentryALTinterwordspacing
-J.~Nielsen, ``{Usability Problems Found by Heuristic Evaluation.}'' 1995,
-  accessed: January 2014. [Online]. Available:
-  \url{http://www.nngroup.com/articles/usability-problems-found-by-heuristic-evaluation/}
-\BIBentrySTDinterwordspacing
+  1993, p. 224—228.
 
 \bibitem{NielsenMolich}
-J.~Nielsen and R.~Molich, ``Heuristic evaluation of user interfaces,'' in
+J.~Nielsen and R.~Molich, ''Heuristic evaluation of user interfaces,'' in
   \emph{Proceedings of the SIGCHI conference on Human factors in computing
-  systems}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 1990, pp. 249--256.
+  systems}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 1990, p. 249—256.
 
 \bibitem{NielsenHow}
 \BIBentryALTinterwordspacing
-J.~Nielsen, ``{How to Conduct a Heuristic Evaluation},'' 1995, accessed:
-  December 2013. [Online]. Available:
+J.~Nielsen, ''{How to Conduct a Heuristic Evaluation},'' 1995, {[Accessed: 5
+  December, 2013]}. [Online]. Available:
   \url{http://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/}
 \BIBentrySTDinterwordspacing
 
 \bibitem{NielsenMack}
-------, ``Heuristic evaluation,'' in \emph{Usability Inspection Methods},
-  J.~Nielsen and R.~Mack, Eds.\hskip 1em plus 0.5em minus 0.4em\relax New York,
-  NY: John Wiley \& Sons, 1994.
+J.~Nielsen and R.~Mack, Eds., \emph{{Usability Inspection Methods}}.\hskip 1em
+  plus 0.5em minus 0.4em\relax New York, NY: John Wiley \& Sons, 1994.
 
 \bibitem{Galitz}
 W.~O. Galitz, \emph{The essential guide to user interface design},
@@ -308,39 +345,43 @@ W.~O. Galitz, \emph{The essential guide to user interface design},
   Inc, 2002.
 
 \bibitem{Hartson}
-\BIBentryALTinterwordspacing
-H.~R. Hartson, T.~S. Andre, and R.~C. Williges, ``Criteria for evaluating
+H.~R. Hartson, T.~S. Andre, and R.~C. Williges, ''Criteria for evaluating
   usability evaluation methods,'' \emph{International journal of human-computer
-  interaction}, vol.~13, no.~4, pp. 373--410, 2001. [Online]. Available:
-  \url{http://dx.doi.org/10.1207/S15327590IJHC1501_13}
-\BIBentrySTDinterwordspacing
+  interaction}, vol.~13, no.~4, p. 373—410, 2001.
 
 \bibitem{Shneiderman1984}
-B.~Shneiderman, ``Response time and display rate in human performance with
-  computers,'' \emph{ACM Computing Surveys (CSUR)}, vol.~16, no.~3, pp.
-  265--285, 1984.
+B.~Shneiderman, ''Response time and display rate in human performance with
+  computers,'' \emph{ACM Computing Surveys (CSUR)}, vol.~16, no.~3, p.
+  265—285, 1984.
 
 \bibitem{Nah}
-F.~F. Nah, ``A study on tolerable waiting time: how long are web users willing
-  to wait?'' \emph{Behaviour \& Information Technology}, vol.~23, no.~3, pp.
-  153--163, 2004.
+F.~F. Nah, ''A study on tolerable waiting time: how long are web users willing
+  to wait?'' \emph{Behaviour \& Information Technology}, vol.~23, no.~3, p.
+  153—163, 2004.
 
 \bibitem{QUISquant}
 \BIBentryALTinterwordspacing
-``{Quant QUIS™: Information About Quantitative Analysis},'' accessed:
-  December 2013. [Online]. Available:
+''{Quant QUIS™: Information About Quantitative Analysis},'' {[Accessed: 20
+  November, 2013]}. [Online]. Available:
   \url{http://lap.umd.edu/quis/QuantQUIS.htm}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Nielsen1995}
+\BIBentryALTinterwordspacing
+J.~Nielsen, ''{Usability Problems Found by Heuristic Evaluation.}'' 1995,
+  {[Accessed: 5 December, 2013]}. [Online]. Available:
+  \url{http://www.nngroup.com/articles/usability-problems-found-by-heuristic-evaluation/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{Faulkner}
-L.~Faulkner, ``{Beyond the five-user assumption: Benefits of increased sample
+L.~Faulkner, ''{Beyond the five-user assumption: Benefits of increased sample
   sizes in usability testing},'' \emph{Behavior Research Methods, Instruments,
-  \& Computers}, vol.~35, no.~3, pp. 379--383, 2003.
+  \& Computers}, vol.~35, no.~3, p. 379—383, 2003.
 
 \bibitem{Dicks}
-R.~S. Dicks, ``Mis-usability: on the uses and misuses of usability testing,''
+R.~S. Dicks, ''Mis-usability: on the uses and misuses of usability testing,''
   in \emph{Proceedings of the 20th annual international conference on Computer
-  documentation}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2002, pp. 26--30.
+  documentation}.\hskip 1em plus 0.5em minus 0.4em\relax ACM, 2002, p. 26—30.
 
 \bibitem{Gravetter}
 F.~J. Gravetter and L.-A.~B. Forzano, \emph{Research methods for the behavioral
@@ -348,9 +389,9 @@ F.~J. Gravetter and L.-A.~B. Forzano, \emph{Research methods for the behavioral
   Cengage Learning, 2003.
 
 \bibitem{Hertzum}
-M.~Hertzum and N.~E. Jacobsen, ``The evaluator effect: A chilling fact about
-  usability evaluation methods,'' \emph{International Journal of Human-Computer
-  Interaction}, vol.~13, no.~4, pp. 421--443, 2001.
+M.~Hertzum and N.~E. Jacobsen, ''{The evaluator effect: A chilling fact about
+  usability evaluation methods},'' \emph{International Journal of
+  Human-Computer Interaction}, vol.~13, no.~4, p. 421—443, 2001.
 
 \bibitem{Dumas}
 J.~S. Dumas and J.~Redish, \emph{A practical guide to usability testing},

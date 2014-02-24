@@ -4,89 +4,90 @@
 \vspace {1em}
 \contentsline {chapter}{Abstract}{iv}{dummy.4}
 \vspace {1em}
-\contentsline {chapter}{Acknowledgements}{v}{dummy.5}
+\contentsline {chapter}{Acknowledgements}{vi}{dummy.5}
 \vspace {1em}
-\contentsline {chapter}{Contents}{vi}{dummy.6}
-\contentsline {chapter}{List of Figures}{ix}{dummy.8}
+\contentsline {chapter}{Contents}{vii}{dummy.6}
+\contentsline {chapter}{List of Figures}{x}{dummy.8}
 \contentsline {chapter}{List of Tables}{xi}{dummy.10}
-\contentsline {chapter}{Abbreviations}{xii}{dummy.12}
 \vspace {2em}
-\contentsline {part}{I\hspace {1em}Introduction}{1}{part.15}
-\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.16}
-\contentsline {section}{\numberline {1.1}Introduction}{2}{section.17}
-\contentsline {subsection}{\numberline {1.1.1}Current annotation system}{2}{subsection.18}
-\contentsline {subsection}{\numberline {1.1.2}New annotation system}{3}{subsection.20}
-\contentsline {section}{\numberline {1.2}The problem}{4}{section.21}
-\contentsline {section}{\numberline {1.3}The solution}{4}{section.22}
-\contentsline {section}{\numberline {1.4}Scope of the research}{4}{section.23}
-\contentsline {section}{\numberline {1.5}The structure of this dissertation}{5}{section.24}
-\contentsline {chapter}{\numberline {2}The Existing Annotator System}{6}{chapter.25}
-\contentsline {section}{\numberline {2.1}Overview of Annotator}{6}{section.26}
-\contentsline {section}{\numberline {2.2}Technical details of Annotator}{7}{section.29}
-\contentsline {section}{\numberline {2.3}Existing Interface}{7}{section.31}
-\contentsline {chapter}{\numberline {3}Related Research}{9}{chapter.33}
-\contentsline {part}{II\hspace {1em}Design}{13}{part.34}
-\contentsline {chapter}{\numberline {4}Methodology}{14}{chapter.35}
-\contentsline {section}{\numberline {4.1}Introduction}{14}{section.36}
-\contentsline {section}{\numberline {4.2}User-centered design}{14}{section.37}
-\contentsline {section}{\numberline {4.3}Establishing requirements}{15}{section.38}
-\contentsline {subsection}{\numberline {4.3.1}Stakeholder identification}{15}{subsection.39}
-\contentsline {subsection}{\numberline {4.3.2}Stakeholder interviews}{16}{subsection.40}
-\contentsline {subsection}{\numberline {4.3.3}Focus group}{16}{subsection.41}
-\contentsline {subsection}{\numberline {4.3.4}User requirements analysis}{16}{subsection.42}
-\contentsline {subsection}{\numberline {4.3.5}Use cases}{17}{subsection.43}
-\contentsline {section}{\numberline {4.4}Conceptual model}{18}{section.44}
-\contentsline {section}{\numberline {4.5}Design guidelines}{19}{section.45}
-\contentsline {section}{\numberline {4.6}Participatory Design}{21}{section.54}
-\contentsline {section}{\numberline {4.7}Evaluation}{22}{section.55}
-\contentsline {subsection}{\numberline {4.7.1}Usability testing}{22}{subsection.56}
-\contentsline {subsection}{\numberline {4.7.2}QUIS questionnaire}{23}{subsection.57}
-\contentsline {subsection}{\numberline {4.7.3}Hueristic evaluation}{24}{subsection.58}
-\contentsline {chapter}{\numberline {5}The Participatory Design Process}{27}{chapter.60}
-\contentsline {section}{\numberline {5.1}Session 1}{28}{section.61}
-\contentsline {subsection}{\numberline {5.1.1}Filter parameters}{28}{subsection.62}
-\contentsline {subsection}{\numberline {5.1.2}First interface}{29}{subsection.63}
-\contentsline {subsection}{\numberline {5.1.3}Second interface}{29}{subsection.65}
-\contentsline {subsection}{\numberline {5.1.4}Behaviour}{30}{subsection.67}
-\contentsline {subsection}{\numberline {5.1.5}Saving filters and a user's last view}{31}{subsection.68}
-\contentsline {subsection}{\numberline {5.1.6}Issue tracking}{32}{subsection.69}
-\contentsline {section}{\numberline {5.2}Session 2}{32}{section.70}
-\contentsline {subsection}{\numberline {5.2.1}Displaying results}{32}{subsection.71}
-\contentsline {subsection}{\numberline {5.2.2}Detailed results}{33}{subsection.72}
-\contentsline {subsection}{\numberline {5.2.3}Refined filters}{33}{subsection.73}
-\contentsline {section}{\numberline {5.3}Consolidated prototype}{34}{section.74}
-\contentsline {subsection}{\numberline {5.3.1}Description of interface}{35}{subsection.76}
-\contentsline {section}{\numberline {5.4}Discussion}{38}{section.86}
-\contentsline {chapter}{\numberline {6}Building a High Fidelity Prototype}{39}{chapter.87}
-\contentsline {section}{\numberline {6.1}The high fidelity prototype}{39}{section.91}
-\contentsline {subsection}{\numberline {6.1.1}Technical details}{39}{subsection.93}
-\contentsline {subsection}{\numberline {6.1.2}Behaviour}{43}{subsection.99}
-\contentsline {section}{\numberline {6.2}How and why the high fidelity prototype differs from the paper prototype}{46}{section.106}
-\contentsline {section}{\numberline {6.3}Discussion}{49}{section.122}
-\contentsline {chapter}{\numberline {7}Evaluation and Improvements}{51}{chapter.123}
-\contentsline {section}{\numberline {7.1}Formative evaluation}{51}{section.124}
-\contentsline {subsection}{\numberline {7.1.1}Usability test results}{54}{subsection.159}
-\contentsline {section}{\numberline {7.2}Improvements to the prototype}{59}{section.160}
-\contentsline {subsection}{\numberline {7.2.1}Checkbox behaviour}{59}{subsection.161}
-\contentsline {subsection}{\numberline {7.2.2}Table reload speed}{59}{subsection.164}
-\contentsline {subsection}{\numberline {7.2.3}Cursors}{61}{subsection.165}
-\contentsline {subsection}{\numberline {7.2.4}Sort icons}{61}{subsection.166}
-\contentsline {subsection}{\numberline {7.2.5}Reset button}{61}{subsection.169}
-\contentsline {subsection}{\numberline {7.2.6}Username search box}{61}{subsection.172}
-\contentsline {subsection}{\numberline {7.2.7}Closing the detailed view overlay}{63}{subsection.175}
-\contentsline {subsection}{\numberline {7.2.8}Bug fixes}{63}{subsection.176}
-\contentsline {subsubsection}{\numberline {7.2.8.1}DataTables CSS bug}{63}{subsubsection.177}
-\contentsline {subsubsection}{\numberline {7.2.8.2}Table row onclick bug}{63}{subsubsection.178}
-\contentsline {subsubsection}{\numberline {7.2.8.3}Username search caching issue}{63}{subsubsection.179}
-\contentsline {subsubsection}{\numberline {7.2.8.4}Date conversion/sorting}{64}{subsubsection.180}
-\contentsline {section}{\numberline {7.3}Summative evaluation}{64}{section.182}
-\contentsline {subsection}{\numberline {7.3.1}Usability test results}{65}{subsection.183}
-\contentsline {subsection}{\numberline {7.3.2}QUIS7 questionnaire}{71}{subsection.184}
-\contentsline {subsection}{\numberline {7.3.3}Heuristic evaluation}{73}{subsection.185}
-\contentsline {section}{\numberline {7.4}Discussion}{77}{section.196}
-\contentsline {chapter}{\numberline {8}Conclusion}{79}{chapter.197}
-\contentsline {section}{\numberline {8.1}Conclusion}{79}{section.198}
-\contentsline {section}{\numberline {8.2}Future work}{80}{section.199}
+\contentsline {part}{I\hspace {1em}Introduction}{1}{part.12}
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.13}
+\contentsline {section}{\numberline {1.1}Introduction}{2}{section.14}
+\contentsline {subsection}{\numberline {1.1.1}Current annotation system}{2}{subsection.15}
+\contentsline {subsection}{\numberline {1.1.2}New annotation system}{3}{subsection.17}
+\contentsline {section}{\numberline {1.2}The problem}{4}{section.18}
+\contentsline {section}{\numberline {1.3}The solution}{4}{section.19}
+\contentsline {section}{\numberline {1.4}Scope of the research}{4}{section.20}
+\contentsline {section}{\numberline {1.5}The structure of this dissertation}{5}{section.21}
+\contentsline {chapter}{\numberline {2}The Existing Annotator System}{6}{chapter.22}
+\contentsline {section}{\numberline {2.1}Overview of Annotator}{6}{section.23}
+\contentsline {section}{\numberline {2.2}Technical details of Annotator}{7}{section.26}
+\contentsline {section}{\numberline {2.3}Existing interface}{7}{section.30}
+\contentsline {chapter}{\numberline {3}Related Research}{9}{chapter.32}
+\contentsline {part}{II\hspace {1em}Design}{13}{part.33}
+\contentsline {chapter}{\numberline {4}Methodology}{14}{chapter.34}
+\contentsline {section}{\numberline {4.1}Introduction}{14}{section.35}
+\contentsline {section}{\numberline {4.2}User-centered design}{14}{section.36}
+\contentsline {section}{\numberline {4.3}Establishing requirements}{15}{section.37}
+\contentsline {subsection}{\numberline {4.3.1}Stakeholder identification}{15}{subsection.38}
+\contentsline {subsection}{\numberline {4.3.2}Stakeholder interviews}{16}{subsection.39}
+\contentsline {subsection}{\numberline {4.3.3}Focus group}{16}{subsection.40}
+\contentsline {subsection}{\numberline {4.3.4}User requirements analysis}{16}{subsection.41}
+\contentsline {subsection}{\numberline {4.3.5}Use cases}{17}{subsection.42}
+\contentsline {section}{\numberline {4.4}Conceptual model}{18}{section.43}
+\contentsline {section}{\numberline {4.5}Design guidelines}{19}{section.44}
+\contentsline {section}{\numberline {4.6}Participatory design}{21}{section.53}
+\contentsline {section}{\numberline {4.7}Evaluation}{22}{section.54}
+\contentsline {subsection}{\numberline {4.7.1}Usability testing}{22}{subsection.55}
+\contentsline {subsection}{\numberline {4.7.2}QUIS questionnaire}{24}{subsection.56}
+\contentsline {subsection}{\numberline {4.7.3}Hueristic evaluation}{24}{subsection.57}
+\contentsline {chapter}{\numberline {5}The Participatory Design Process}{27}{chapter.59}
+\contentsline {section}{\numberline {5.1}Session 1}{28}{section.60}
+\contentsline {subsection}{\numberline {5.1.1}Filter parameters}{28}{subsection.61}
+\contentsline {subsection}{\numberline {5.1.2}First interface}{29}{subsection.62}
+\contentsline {subsection}{\numberline {5.1.3}Second interface}{29}{subsection.64}
+\contentsline {subsection}{\numberline {5.1.4}Behaviour}{30}{subsection.66}
+\contentsline {subsection}{\numberline {5.1.5}Saving filters and a user's last view}{31}{subsection.67}
+\contentsline {subsection}{\numberline {5.1.6}Issue tracking}{32}{subsection.68}
+\contentsline {section}{\numberline {5.2}Session 2}{32}{section.69}
+\contentsline {subsection}{\numberline {5.2.1}Displaying results}{33}{subsection.70}
+\contentsline {subsection}{\numberline {5.2.2}Detailed results}{33}{subsection.71}
+\contentsline {subsection}{\numberline {5.2.3}Refined filters}{33}{subsection.72}
+\contentsline {section}{\numberline {5.3}Consolidated prototype}{34}{section.73}
+\contentsline {subsection}{\numberline {5.3.1}Description of interface}{34}{subsection.75}
+\contentsline {section}{\numberline {5.4}Discussion}{37}{section.85}
+\contentsline {chapter}{\numberline {6}Building a High-fidelity Prototype}{40}{chapter.86}
+\contentsline {section}{\numberline {6.1}The high-fidelity prototype}{40}{section.90}
+\contentsline {subsection}{\numberline {6.1.1}Technical details}{40}{subsection.91}
+\contentsline {subsection}{\numberline {6.1.2}Behaviour}{45}{subsection.98}
+\contentsline {section}{\numberline {6.2}How and why the high-fidelity prototype differs from the paper prototype}{49}{section.105}
+\contentsline {section}{\numberline {6.3}Discussion}{52}{section.121}
+\contentsline {part}{III\hspace {1em}Evaluation and Improvements}{54}{part.122}
+\contentsline {chapter}{\numberline {7}Evaluation and Improvements}{55}{chapter.123}
+\contentsline {section}{\numberline {7.1}Formative evaluation}{55}{section.124}
+\contentsline {subsection}{\numberline {7.1.1}Usability test results}{58}{subsection.159}
+\contentsline {section}{\numberline {7.2}Improvements to the prototype}{63}{section.160}
+\contentsline {subsection}{\numberline {7.2.1}Checkbox behaviour}{63}{subsection.161}
+\contentsline {subsection}{\numberline {7.2.2}Table reload speed}{64}{subsection.164}
+\contentsline {subsection}{\numberline {7.2.3}Cursors}{65}{subsection.165}
+\contentsline {subsection}{\numberline {7.2.4}Sort icons}{65}{subsection.166}
+\contentsline {subsection}{\numberline {7.2.5}Reset button}{66}{subsection.169}
+\contentsline {subsection}{\numberline {7.2.6}Username search box}{66}{subsection.172}
+\contentsline {subsection}{\numberline {7.2.7}Closing the detailed view overlay}{67}{subsection.175}
+\contentsline {subsection}{\numberline {7.2.8}Bug fixes}{67}{subsection.176}
+\contentsline {subsubsection}{\numberline {7.2.8.1}DataTables CSS bug}{67}{subsubsection.177}
+\contentsline {subsubsection}{\numberline {7.2.8.2}Table row onclick bug}{68}{subsubsection.178}
+\contentsline {subsubsection}{\numberline {7.2.8.3}Username search caching issue}{68}{subsubsection.179}
+\contentsline {subsubsection}{\numberline {7.2.8.4}Date conversion/sorting}{68}{subsubsection.180}
+\contentsline {subsection}{\numberline {7.2.9}Discussion}{68}{subsection.181}
+\contentsline {section}{\numberline {7.3}Summative evaluation}{70}{section.183}
+\contentsline {subsection}{\numberline {7.3.1}Usability test results}{71}{subsection.184}
+\contentsline {subsection}{\numberline {7.3.2}QUIS7 questionnaire}{77}{subsection.185}
+\contentsline {subsection}{\numberline {7.3.3}Heuristic evaluation}{80}{subsection.186}
+\contentsline {section}{\numberline {7.4}Discussion}{84}{section.197}
+\contentsline {chapter}{\numberline {8}Conclusion}{87}{chapter.198}
+\contentsline {section}{\numberline {8.1}Conclusion}{87}{section.199}
+\contentsline {section}{\numberline {8.2}Future work}{88}{section.200}
 \vspace {2em}
 \vspace {2em}
-\contentsline {chapter}{Bibliography}{82}{dummy.200}
+\contentsline {chapter}{Bibliography}{90}{dummy.201}

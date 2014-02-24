@@ -1454,7 +1454,7 @@ FUNCTION {format.article.title}
         { punct.no 'this.status.punct := }
       if$
       select.language
-      "``" swap$ *
+      "''" swap$ *
       cap.status.std
     }
   if$

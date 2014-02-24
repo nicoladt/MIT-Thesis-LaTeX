@@ -184,7 +184,7 @@
 %	defined as \examname above so you cite it as \examname
 %----------------------------------------------------------------------------------------
 
-\thesistitle{Designing an interface to provide new functionality for the processing of existing web-based annotations.} % Your thesis title - this is used in the title and abstract
+\thesistitle{Designing an interface to provide new functionality for the post-processing of web-based annotations.} % Your thesis title - this is used in the title and abstract
 %-------------------------------------------------  
 \supervisor{Professor Gary \textsc{Marsden}} % You supervisor's name - this is used in the title page
 %-------------------------------------------------   

@@ -14,45 +14,45 @@ Database file #1: Bibliography.bib
 Warning--edition ordinal word "Revised" may be too high (or improper) for conversion in Dumas
 
 Done.
-You've used 62 entries,
+You've used 70 entries,
             4039 wiz_defined-function locations,
-            1166 strings with 15671 characters,
-and the built_in function-call counts, 34608 in all, are:
-= -- 2634
-> -- 632
-< -- 248
-+ -- 347
-- -- 97
-* -- 1550
-:= -- 5260
-add.period$ -- 134
-call.type$ -- 62
-change.case$ -- 70
-chr.to.int$ -- 573
-cite$ -- 63
-duplicate$ -- 2704
-empty$ -- 3203
-format.name$ -- 126
-if$ -- 7931
+            1213 strings with 17041 characters,
+and the built_in function-call counts, 35475 in all, are:
+= -- 2992
+> -- 556
+< -- 86
++ -- 262
+- -- 119
+* -- 1389
+:= -- 5409
+add.period$ -- 152
+call.type$ -- 70
+change.case$ -- 73
+chr.to.int$ -- 60
+cite$ -- 71
+duplicate$ -- 3171
+empty$ -- 3369
+format.name$ -- 152
+if$ -- 8301
 int.to.chr$ -- 0
-int.to.str$ -- 62
-missing$ -- 477
-newline$ -- 261
-num.names$ -- 44
-pop$ -- 1366
+int.to.str$ -- 70
+missing$ -- 554
+newline$ -- 287
+num.names$ -- 49
+pop$ -- 1591
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 4
-skip$ -- 2661
+skip$ -- 3065
 stack$ -- 0
-substring$ -- 1313
-swap$ -- 1881
-text.length$ -- 57
+substring$ -- 620
+swap$ -- 2055
+text.length$ -- 66
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 62
+type$ -- 70
 warning$ -- 1
-while$ -- 137
-width$ -- 64
-write$ -- 578
+while$ -- 83
+width$ -- 72
+write$ -- 650
 (There was 1 warning)
