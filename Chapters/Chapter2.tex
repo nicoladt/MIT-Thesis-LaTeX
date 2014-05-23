@@ -28,7 +28,7 @@ They were then stored in a database for future reference. All users could view e
 
 %-----------------------------------------
 \section{Technical details of Annotator}
-The annotation software Siyavula decided to utilise (and modify for the company's own purposes) is based on an open source application called "Annotator"\footnote{\href{ http://okfnlabs.org/annotator/}{ http://okfnlabs.org/annotator/}} (forked by Siyavula's developer at \href{https://github.com/ezietsman/annotator}{https://github.com/ezietsman/annotator}). Annotator is a Javascript application that is written in CoffeeScript\footnote{\href{http://coffeescript.org/}{http://coffeescript.org/}}. It uses CouchDB\footnote{\href{http://couchdb.apache.org/}{http://couchdb.apache.org/}} and has a Python server back-end. It does not come packaged with any functional user interface for the viewing of saved annotations outside of the webpage where they were made.
+The annotation software Siyavula decided to utilise (and modify for the company's own purposes) is based on an open source application called "Annotator" \citep{Annotator} (forked by Siyavula's developer at \href{https://github.com/ezietsman/annotator}{https://github.com/ezietsman/annotator}). Annotator is a Javascript application that is written in CoffeeScript \citep{CoffeeScript}. It uses CouchDB \citep{CouchDB} and has a Python server back-end. It does not come packaged with any functional user interface for the viewing of saved annotations outside of the webpage where they were made.
 
 Siyavula's version of Annotator ran on static versions of the company's webbooks, not on the latest live versions.
 
@@ -36,12 +36,15 @@ Siyavula's version of Annotator ran on static versions of the company's webbooks
 \section{Existing interface}
 The back-end interface for the annotator consisted of a simple table list of annotations.
 
-Table columns included: "Type", "id" (the database primary key), "Comment" (the text typed by the user), "User", "Time" (date and time) and "URL" (the webpage on which the annotation was made.) Most recent annotations were listed first. The type of annotation was also indicated by one of three colours in the left-hand column.
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{Figures/annotator-backend-table.png}
+Table columns included: "Type", "id" (the database primary key), "Comment" (the text typed by the user), "User", "Time" (date and time) and "URL" (the webpage on which the annotation was made.) Most recent annotations were listed first. The type of annotation was also indicated by one of three colours in the left-hand column (see Figure \ref{fig:ExistingBackEnd}).
+%\begin{figure}[h]
+\begin{sidewaysfigure}
+       \centering
+    \includegraphics[width=0.9\textwidth]{Figures/annotator-backend-table.png}
  \caption{The existing back-end interface: a simple table of stored annotation data}
-\end{figure}
+ \label{fig:ExistingBackEnd}
+\end{sidewaysfigure}
+%\end{figure}
 
 Columns were not sortable, and there was no search or filter mechanism. The back-end merely provided a list of annotations, with some basic information about each entry. For in-house processing of small numbers of annotations ( $<$ 20), this basic back-end was adequate (albeit  very rough) for advanced members of the team. However, this interface was not scalable (processing $>$ 100 annotations listed like this would be extremely difficult) and not user-friendly at all, particularly for less technologically advanced employees. Indeed, it had not been designed with any user requirements in mind at all - it had merely been cobbled together as a temporary way to view annotations that had been made.
 

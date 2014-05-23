@@ -8,7 +8,7 @@
 
 %----------------------------------------------------------------------------------------
 
-Once the paper prototype was complete, it was converted into a Balsamiq\footnote{\href{http://balsamiq.com/}{http://balsamiq.com/}} mockup (see Figure  \ref{fig:Balsamiq}), to be as tidy and legible as possible, as well as digitally portable. This allowed for easy sharing and backing up (e.g. it could be saved to Dropbox and viewed anywhere, on any device) because it was a small PDF file and not an A2 roll of paper. It also provided a more legible version of the paper prototype that didn't include scratched out notes or other visual ambiguities that could confuse the development process. 
+Once the paper prototype was complete, it was converted into a Balsamiq \citep{Balsamiq} mockup (see Figure  \ref{fig:Balsamiq}), to be as tidy and legible as possible, as well as digitally portable. This allowed for easy sharing and backing up (e.g. it could be saved to Dropbox and viewed anywhere, on any device) because it was a small PDF file and not an A2 roll of paper. It also provided a more legible version of the paper prototype that didn't include scratched out notes or other visual ambiguities that could confuse the development process. 
 
 %\begin{figure}[h!]
 \begin{sidewaysfigure}
@@ -21,7 +21,7 @@ Once the paper prototype was complete, it was converted into a Balsamiq\footnote
 
 This mockup was then converted into a functional, high-fidelity prototype website using HTML, CSS and XML, as is detailed below. Scripted functionality was built using Javascript and the JQuery library in particular.  
 
-The site was hosted using GitHub Pages\footnote{\href{http://pages.github.com/}{ http://pages.github.com/}} at \href{http://nicoladt.github.io/MIT-Thesis/}{http://nicoladt.github.io/MIT-Thesis/} which offers simple, free hosting, and seamless integration with GitHub version control software. Assistance was given by Ewald Zietsman with the Javascript and JQuery coding. 
+The site was hosted using GitHub Pages \citep{GitHub} at \href{http://nicoladt.github.io/MIT-Thesis/}{http://nicoladt.github.io/MIT-Thesis/} which offers simple, free hosting, and seamless integration with GitHub version control software. Assistance was given by Ewald Zietsman with the Javascript and JQuery coding. 
 
 \section{The high-fidelity prototype}
 
@@ -52,9 +52,9 @@ For the prototype, annotations were not given unique ID's or primary keys. Whils
 
 Annotations were constructed carefully with evaluation tasks in mind. They were created so as to represent at least every possible combination of subject and grade. Annotations were assigned to the three types (comment, errata, suggestion) and random usernames were created. Replies (in number from 1 to 3) were added to some annotations.
 
-The interface was built upon the basic components of the Bootstrap 2.3.2 framework\footnote{\href{http://getbootstrap.com/2.3.2/}{http://getbootstrap.com/2.3.2/}}. Bootstrap was selected not only because of its built-in cross-browser compatibility but also because it comes packaged with clean and simple CSS and a number of default elements (like buttons) that are easily customizable. 
+The interface was built upon the basic components of the Bootstrap 2.3.2 framework \citep{Bootstrap}. Bootstrap was selected not only because of its built-in cross-browser compatibility but also because it comes packaged with clean and simple CSS and a number of default elements (like buttons) that are easily customizable. 
 
-The DataTables\footnote{\href{https://datatables.net/}{https://datatables.net/}} Javascript plugin was implemented for easy control over the table and its functionality and behaviour. 
+The DataTables jQuery plugin \citep{DataTables} was implemented for easy control over the table and its functionality and behaviour. 
 
 %\begin{figure}[h!]
 \begin{sidewaysfigure}
@@ -80,12 +80,12 @@ DataTables can only handle an alphabetical sort of columns, which meant that a t
 
 Whilst the loss of these possibilities is noteworthy, it was decided to proceed with the implementation of the DataTables plugin, because the missing functionality could easily be substituted using other techniques (e.g. it was very easy to filter all the annotations by "type" to get to the third sorting category of "errata"). For this reason it was decided that the pros of using the DataTables plugin outweighed these few cons.
 
-Javascript and the JQuery library were chosen to do the information processing required by the interface. JQuery allows for client-side processing. It is simple to implement, and runs as a light-weight instance in any browser\footnote{\href{http://jquery.com/}{http://jquery.com/} and \href{http://en.wikipedia.org/wiki/JavaScript}{http://en.wikipedia.org/wiki/JavaScript}}. Practically, client-side data processing (as opposed to HTTP calls to a server) allows for rapid updates to a webpage, and therefore to the interface itself. 
+Javascript and the jQuery library were chosen to do the information processing required by the interface. jQuery allows for client-side processing. It is simple to implement, and runs as a light-weight instance in any browser \citep{jQuery} \citep{JS}. Practically, client-side data processing (as opposed to HTTP calls to a server) allows for rapid updates to a webpage, and therefore to the interface itself. 
 
 GitHub Pages was selected as the simplest hosting solution for the prototype, because it is secure and reliable, and most-importantly integrates seamlessly with GitHub version control software. However GitHub Pages can only serve static HTML and it cannot handle server calls. Again, the pros of using GitHub Pages outweighed the single loss of functionality it presented, which was the inability to use cookies to store user session information. 
 
 
-In terms of scripting behaviour, the script written parses the list of XML annotations and builds then builds the filters on the left of the interface based on what it finds in the XML. Each URL from everythingmaths.co.za and everythingscience.co.za\footnote{\href{http://everythingmaths.co.za/}{http://everythingmaths.co.za/} and \href{http://everythingscience.co.za/}{http://everythingscience.co.za/}} contains information about the subject, grade, chapter and section applicable to that annotation. This information is parsed from the URL and presented in a human-readable text format, both as filters on the left-hand side, and as inline text for each annotation. 
+In terms of scripting behaviour, the script written parses the list of XML annotations and builds then builds the filters on the left of the interface based on what it finds in the XML. Each URL from everythingmaths.co.za and everythingscience.co.za contains information about the subject, grade, chapter and section applicable to that annotation. This information is parsed from the URL and presented in a human-readable text format, both as filters on the left-hand side, and as inline text for each annotation. 
 
 \subsection{Behaviour}
 Once the filters have been constructed from the XML, the table is then populated based on  the selection filters on the left of the page. The default is that all the annotations are selected and therefore all the annotations are displayed in the table. The basic behavioural pattern is that interacting with the left-hand filters automatically changes what is visible in the table. Any changes made to the left-hand selection cause the table to display only the annotations relevant to the new parameters selected on the left. 
