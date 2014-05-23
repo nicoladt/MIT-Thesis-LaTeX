@@ -19,9 +19,11 @@ Once the paper prototype was complete, it was converted into a Balsamiq \citep{B
  \end{sidewaysfigure}
 %\end{figure}
 
-This mockup was then converted into a functional, high-fidelity prototype website using HTML, CSS and XML, as is detailed below. Scripted functionality was built using Javascript and the JQuery library in particular.  
+This mockup was then converted into a functional, high-fidelity prototype website using HTML, CSS and XML, as is detailed below. Scripted functionality was built using JavaScript and the jQuery library in particular.  
 
-The site was hosted using GitHub Pages \citep{GitHub} at \href{http://nicoladt.github.io/MIT-Thesis/}{http://nicoladt.github.io/MIT-Thesis/} which offers simple, free hosting, and seamless integration with GitHub version control software. Assistance was given by Ewald Zietsman with the Javascript and JQuery coding. 
+The site was hosted using GitHub Pages \citep{GitHub} at \href{http://nicoladt.github.io/MIT-Thesis/}{http://nicoladt.github.io/MIT-Thesis/} which offers simple, free hosting, and seamless integration with GitHub version control software. Assistance was given by Ewald Zietsman with the JavaScript and jQuery coding.
+
+Development of the high-fidelity prototype involved an iterative, collaborative process (between developer and designer) of coding new functionality and thorough quality assurance testing. Wherever possible new functionality and behaviour was mapped as closely as possible to the outcome of the paper prototyping sessions. In some instances it was necessary for the high-fidelity prototype to diverge from the paper prototype specification. These instances are discussed in this chapter, and decisions regarding diversions were guided using best technical or design practices. 
 
 \section{The high-fidelity prototype}
 
@@ -30,7 +32,7 @@ The site was hosted using GitHub Pages \citep{GitHub} at \href{http://nicoladt.g
 \subsection{Technical details}
 The interface was comprised of two main areas (see Figure \ref{fig:HifiMain}). The column on the left contained all the filter options, and the table making up the rest of the page displays the annotations in rows.
 
-Placeholder annotations were made in an XML file. Each annotation was assigned a type and had a simple data structure including a timestamp, a URL (pointing to a particular webpage on the live webbooks sites), a username, highlighted text (from the book), and a user comment. In addition each annotation could have one or more replies. Replies in turn also had a timestamp, username and user comment: 
+Placeholder annotations were made in an XML file. XML was chosen not only because it is easy to parse but also because XML is a standard format used in most Siyavula's actual content and website pipelines. Prototype XML annotations therefore map well to future reality-based annotation scenarios which the company may encounter. Each annotation was assigned a type and had a simple data structure including a timestamp, a URL (pointing to a particular webpage on the live webbooks sites), a username, highlighted text (from the book), and a user comment. In addition each annotation could have one or more replies. Replies in turn also had a timestamp, username and user comment: 
 \begin{verbatim}
 <annotation type="">
   <url></url>
@@ -52,7 +54,7 @@ For the prototype, annotations were not given unique ID's or primary keys. Whils
 
 Annotations were constructed carefully with evaluation tasks in mind. They were created so as to represent at least every possible combination of subject and grade. Annotations were assigned to the three types (comment, errata, suggestion) and random usernames were created. Replies (in number from 1 to 3) were added to some annotations.
 
-The interface was built upon the basic components of the Bootstrap 2.3.2 framework \citep{Bootstrap}. Bootstrap was selected not only because of its built-in cross-browser compatibility but also because it comes packaged with clean and simple CSS and a number of default elements (like buttons) that are easily customizable. 
+The interface was built upon the basic components of the Bootstrap 2.3.2 framework \citep{Bootstrap}. Bootstrap was selected not only because of its built-in cross-browser compatibility but also because it comes packaged with clean and simple CSS and a number of default elements (like buttons) that are easily customisable. 
 
 The DataTables jQuery plugin \citep{DataTables} was implemented for easy control over the table and its functionality and behaviour. 
 
@@ -80,7 +82,7 @@ DataTables can only handle an alphabetical sort of columns, which meant that a t
 
 Whilst the loss of these possibilities is noteworthy, it was decided to proceed with the implementation of the DataTables plugin, because the missing functionality could easily be substituted using other techniques (e.g. it was very easy to filter all the annotations by "type" to get to the third sorting category of "errata"). For this reason it was decided that the pros of using the DataTables plugin outweighed these few cons.
 
-Javascript and the jQuery library were chosen to do the information processing required by the interface. jQuery allows for client-side processing. It is simple to implement, and runs as a light-weight instance in any browser \citep{jQuery} \citep{JS}. Practically, client-side data processing (as opposed to HTTP calls to a server) allows for rapid updates to a webpage, and therefore to the interface itself. 
+JavaScript and the jQuery library were chosen to do the information processing required by the interface. jQuery allows for client-side processing. It is simple to implement, and runs as a light-weight instance in any browser \citep{jQuery} \citep{JS}. Practically, client-side data processing (as opposed to HTTP calls to a server) allows for rapid updates to a webpage, and therefore to the interface itself. 
 
 GitHub Pages was selected as the simplest hosting solution for the prototype, because it is secure and reliable, and most-importantly integrates seamlessly with GitHub version control software. However GitHub Pages can only serve static HTML and it cannot handle server calls. Again, the pros of using GitHub Pages outweighed the single loss of functionality it presented, which was the inability to use cookies to store user session information. 
 
