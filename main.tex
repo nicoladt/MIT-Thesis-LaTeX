@@ -25,7 +25,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[11pt, a4paper,oneside]{Thesis} % Paper size, default font size and one-sided paper
+\documentclass[11pt, a4paper,twoside]{Thesis} % Paper size, default font size and one-sided paper
 
 \graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
 
@@ -100,13 +100,15 @@
  \end{figure} 
 
 \end{center}
-
+\clearpage \null
+\pagestyle{empty}
 \end{titlepage}
 
 %----------------------------------------------------------------------------------------
 %	DECLARATION PAGE
 %	Your institution may give you a different text to place here
 %----------------------------------------------------------------------------------------
+
 
 \Declaration{
 
@@ -164,19 +166,23 @@ Date:\\
 Gary Marsden
 \end{flushright}
 \clearpage
-%\vfill\null % Add some space at the bottom to position the quote just right
+\vfill\null % Add some space at the bottom to position the quote just right
 
 
 
 %------------------2----------------------------------------------------------------------
 %	ABSTRACT PAGE
 %----------------------------------------------------------------------------------------
-\vspace*{-3cm}
-\setstretch{1.3}
+%\vspace*{-4cm}
+
 \addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
-
-\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
-
+\addtocontents{toc}{\vspace{1em}}
+%\abstract{\addtocontents{toc}{\vspace{1em}} % Add a gap in the Contents, for aesthetics
+\vspace{-2cm}
+\begin{center}
+{\huge{\textit{Abstract}} \par}
+\end{center}
+{\setstretch{1.3}
 Systems to annotate online content are becoming increasingly common on the World Wide Web. While much research and development has been done for interfaces that allow users to make and view annotations, few annotation systems provide functionality that extends beyond this and allows users to also manage and process collections of existing annotations.
 
 Siyavula Education is a social enterprise that publishes high school Maths and Science textbooks online. The company uses annotations to collate collaborator and volunteer feedback (corrections, opinions, suggestions) about its books at various phases in the book-writing life cycle.  
@@ -189,8 +195,8 @@ To enable this kind of interaction, a prototype interface was designed and is pr
 
 Usability tests demonstrated that the interface was successful at giving users this new and necessary functionality (including filtering, sorting and searching) to process annotations. 
 
-Once integrated with front-end software (such as Annotator) and issue tracking software (such as GitHub) the interface could form part of a powerful new tool for the making and management of annotations on the Web. 
-}
+Once integrated with front-end software (such as Annotator) and issue tracking software (such as GitHub) the interface could form part of a powerful new tool for the making and management of annotations on the Web. }
+%}
 
 \clearpage % Start a new page
 

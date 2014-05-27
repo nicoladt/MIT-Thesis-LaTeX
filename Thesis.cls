@@ -298,7 +298,7 @@
   \null\vfill
   \begin{center}
     \setlength{\parskip}{0pt}
-  %  {\normalsize \UNIVNAME \par} % University name in capitals
+  %  {\normalsize \UNIVNAME \par}  University name in capitals
    % \bigskip
     {\huge{\textit{Abstract}} \par}
    % \bigskip
